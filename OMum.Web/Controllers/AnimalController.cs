@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Abp.Web.Mvc.Authorization;
 using OMum.Animals;
 using OMum.Animals.Dto;
 
 namespace OMum.Web.Controllers
 {
+    [AbpMvcAuthorize]
     public class AnimalController : Controller
     {
         private readonly IAnimalAppService _animalAppService;
@@ -17,7 +19,7 @@ namespace OMum.Web.Controllers
         }
         public ActionResult Index()
         {
-            AddAnimal();
+            //AddAnimal();
             return View();
         }
 
