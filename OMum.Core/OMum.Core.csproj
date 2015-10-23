@@ -86,6 +86,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals\Animal.cs" />
     <Compile Include="OMumConsts.cs" />
     <Compile Include="OMumCoreModule.cs" />
     <Compile Include="Authorization\PermissionChecker.cs" />
@@ -110,6 +111,7 @@
     <EmbeddedResource Include="Localization\Source\OMum-tr.xml" />
     <EmbeddedResource Include="Localization\Source\OMum.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

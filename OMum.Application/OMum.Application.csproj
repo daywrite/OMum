@@ -94,6 +94,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals\AnimalAppService.cs" />
+    <Compile Include="Animals\Dto\CreateAnimalInput.cs" />
+    <Compile Include="Animals\IAnimalAppService.cs" />
     <Compile Include="OMumApplicationModule.cs" />
     <Compile Include="OMumAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -119,6 +122,7 @@
       <Name>OMum.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
