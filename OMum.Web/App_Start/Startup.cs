@@ -23,7 +23,12 @@ namespace OMum.Web
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/Account/Login")
+                LoginPath = new PathString("/Account/Login"),
+                /*
+                  登陆参数
+                  2015-10-23 lwb
+                 */
+                ExpireTimeSpan=TimeSpan.FromHours(4)
             });
 
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
