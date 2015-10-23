@@ -1,8 +1,13 @@
-﻿using System.Data.Common;
+﻿using System.Collections.Generic;
+using System.Data.Common;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using Abp.Zero.EntityFramework;
+using OBear.EntityFramework;
 using OMum.Authorization.Roles;
 using OMum.MultiTenancy;
 using OMum.Users;
+using System.Linq;
 
 namespace OMum.EntityFramework
 {
@@ -36,6 +41,20 @@ namespace OMum.EntityFramework
             : base(connection, true)
         {
 
+        }
+       
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            //移除一对多的级联删除
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+
+            //注册实体配置信息
+            IEntityMapper[] entityMappers = DbContextManager.Instance.GetEntityMappers(typeof(OMumDbContext)).ToArray();
+            foreach (IEntityMapper mapper in entityMappers)
+            {
+                mapper.RegistTo(modelBuilder.Configurations);
+            }
         }
     }
 }

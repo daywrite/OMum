@@ -3956,3 +3956,1903 @@ Abp.UI.UserFriendlyException: 登录失败!
    在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
    在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
    在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:35:21,961 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:35:23,293 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:35:23,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:35:23,305 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:35:24,947 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:35:24,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:35:24,952 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:35:24,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:35:24,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:35:27,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:35:27,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:35:27,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:35:27,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:35:27,212 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:35:27,213 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:35:27,213 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:35:40,145 [10   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:36:54,699 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:36:56,200 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:36:56,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:36:56,212 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:36:57,800 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:36:57,804 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:36:57,805 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:36:57,808 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:36:57,808 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:36:59,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:36:59,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:37:00,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:37:00,009 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:37:00,059 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:37:00,060 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:37:00,061 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:37:15,896 [10   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:38:03,173 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:38:04,566 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:38:04,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:38:04,577 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:38:06,182 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:38:06,189 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:38:06,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:38:06,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:38:06,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:38:08,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:38:08,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:38:08,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:38:08,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:38:08,420 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:38:08,422 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:38:08,423 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:38:40,433 [10   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2015-10-23 14:38:48,641 [14   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2015-10-23 14:40:12,256 [17   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2015-10-23 14:40:51,212 [19   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:41:17,808 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:41:19,149 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:41:19,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:41:19,159 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:41:20,797 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:41:20,805 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:41:20,806 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:41:20,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:41:20,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:41:22,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:41:22,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:41:22,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:41:22,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:41:22,998 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:41:22,999 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:41:23,000 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 14:44:16,059 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:44:17,419 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:44:17,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:44:17,431 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:44:19,028 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:44:19,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:44:19,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:44:19,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:44:19,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:44:21,074 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:44:21,074 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:44:21,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:44:21,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:44:21,217 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:44:21,219 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:44:21,220 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:44:33,514 [6    ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2015-10-23 14:44:36,424 [8    ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:45:02,931 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:45:04,303 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:45:04,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:04,313 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:45:05,919 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:45:05,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:45:05,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:45:05,927 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:45:05,927 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:45:08,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:45:08,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:45:08,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:45:08,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:45:08,174 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:45:08,174 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:45:08,175 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:45:18,627 [5    ] .Mvc.Controllers.AbpHandleErrorAttribute - System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Filter name MustHaveTenant not found
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   在 EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__c.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.Users.AbpUserManager`3.<LoginAsync>d__40.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:45:49,856 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:45:51,278 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:45:51,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:45:51,291 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:45:53,105 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:45:53,111 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:45:53,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:45:53,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:45:53,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:45:55,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:45:55,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:45:55,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:45:55,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:45:55,428 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:45:55,428 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:45:55,429 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 15:08:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 15:08:18,170 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 15:08:18,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:08:18,181 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 15:08:19,908 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 15:08:19,912 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 15:08:19,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 15:08:19,914 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 15:08:19,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 15:08:22,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 15:08:22,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 15:08:22,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 15:08:22,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 15:08:22,329 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 15:08:22,330 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 15:08:22,330 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 15:09:31,373 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 15:09:32,727 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 15:09:32,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:09:32,738 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 15:09:34,359 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 15:09:34,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 15:09:34,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 15:09:34,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 15:09:34,367 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 15:09:36,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 15:09:36,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 15:09:36,465 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 15:09:36,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 15:09:36,512 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 15:09:36,513 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 15:09:36,514 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 15:10:42,417 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 15:10:43,954 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 15:10:43,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:10:43,964 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 15:10:45,669 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 15:10:45,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 15:10:45,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 15:10:45,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 15:10:45,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 15:10:47,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 15:10:47,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 15:10:47,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 15:10:47,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 15:10:47,901 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 15:10:47,903 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 15:10:47,905 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.

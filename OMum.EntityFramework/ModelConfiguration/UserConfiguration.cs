@@ -11,7 +11,8 @@ namespace OMum.ModelConfiguration
     public class UserConfiguration : EntityConfigurationBase<User, long>
     {
         public UserConfiguration()
-        {         
+        {
+            ToTable("a_user");
         }
     }
 }
