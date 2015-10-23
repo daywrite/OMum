@@ -3792,3 +3792,167 @@ DEBUG 2015-10-15 18:25:21,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2015-10-15 18:25:21,949 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2015-10-15 18:25:21,949 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2015-10-15 18:25:21,949 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 13:19:22,519 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 13:19:23,853 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 13:19:23,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 13:19:23,863 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 13:19:25,482 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 13:19:25,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 13:19:25,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 13:19:25,488 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 13:19:25,489 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 13:19:27,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 13:19:27,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 13:19:27,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 13:19:27,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 13:19:27,747 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 13:19:27,748 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 13:19:27,748 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:06:36,354 [95   ] .Mvc.Controllers.AbpHandleErrorAttribute - Abp.UI.UserFriendlyException: 登录失败!
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 107
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.UI.UserFriendlyException: 登录失败!
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 107
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-10-23 14:13:23,573 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 14:13:24,978 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 14:13:24,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 14:13:24,993 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 14:13:26,687 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 14:13:26,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 14:13:26,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 14:13:26,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 14:13:26,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 14:13:28,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 14:13:28,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 14:13:28,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 14:13:28,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 14:13:29,007 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 14:13:29,008 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 14:13:29,009 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-23 14:18:14,723 [18   ] .Mvc.Controllers.AbpHandleErrorAttribute - Abp.UI.UserFriendlyException: 登录失败!
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 107
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.UI.UserFriendlyException: 登录失败!
+   在 OMum.Web.Controllers.AccountController.<GetLoginResultAsync>d__7.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 107
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 OMum.Web.Controllers.AccountController.<Login>d__2.MoveNext() 位置 d:\个人资料\开源项目\ABP\OMum\OMum.Web\Controllers\AccountController.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)

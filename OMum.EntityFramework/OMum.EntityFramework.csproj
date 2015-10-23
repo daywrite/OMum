@@ -92,6 +92,15 @@
       <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.Enlightenment.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="OBear.Core">
+      <HintPath>..\OBearLibs\OBear.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OBear.EntityFramework">
+      <HintPath>..\OBearLibs\OBear.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OBear.Utility">
+      <HintPath>..\OBearLibs\OBear.Utility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -107,7 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\OMumDbContext.cs" />
+    <Compile Include="EntityFramework\OMumDbContextInitializer.cs" />
     <Compile Include="EntityFramework\Repositories\OMumRepositoryBase.cs" />
+    <Compile Include="Initialize\EntityConfigurationBase.cs" />
+    <Compile Include="Initialize\MvcFrameworkInitializer.cs" />
     <Compile Include="Migrations\201506210746108_AbpZero_Initial.cs" />
     <Compile Include="Migrations\201506210746108_AbpZero_Initial.Designer.cs">
       <DependentUpon>201506210746108_AbpZero_Initial.cs</DependentUpon>
@@ -125,6 +137,7 @@
       <DependentUpon>201510141938232_Upgrade_Abp_And_Module_Zero_To_0_7_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ModelConfiguration\UserConfiguration.cs" />
     <Compile Include="OMumDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantRoleAndUserBuilder.cs" />
     <Compile Include="Migrations\SeedData\InitialDataBuilder.cs" />
