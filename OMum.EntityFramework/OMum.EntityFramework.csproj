@@ -137,7 +137,11 @@
       <DependentUpon>201510141938232_Upgrade_Abp_And_Module_Zero_To_0_7_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ModelConfiguration\AuditLogConfiguration.cs" />
+    <Compile Include="ModelConfiguration\RoleConfiguration.cs" />
+    <Compile Include="ModelConfiguration\TenantConfiguration.cs" />
     <Compile Include="ModelConfiguration\UserConfiguration.cs" />
+    <Compile Include="ModelConfiguration\UserRoleConfiguration.cs" />
     <Compile Include="OMumDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantRoleAndUserBuilder.cs" />
     <Compile Include="Migrations\SeedData\InitialDataBuilder.cs" />

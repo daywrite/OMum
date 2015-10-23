@@ -5856,3 +5856,59 @@ DEBUG 2015-10-23 15:10:47,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2015-10-23 15:10:47,901 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2015-10-23 15:10:47,903 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2015-10-23 15:10:47,905 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 15:23:37,110 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 15:23:38,508 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 15:23:38,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:23:38,522 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 15:23:40,251 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 15:23:40,255 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 15:23:40,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 15:23:40,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 15:23:40,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 15:23:42,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 15:23:42,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 15:23:42,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 15:23:42,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 15:23:42,588 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 15:23:42,589 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 15:23:42,591 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-23 15:26:08,584 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-23 15:26:10,064 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-23 15:26:10,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-23 15:26:10,077 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-23 15:26:11,745 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-23 15:26:11,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-23 15:26:11,750 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-23 15:26:11,750 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-23 15:26:11,750 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-23 15:26:13,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 3 classes defines auto mapping attributes
+DEBUG 2015-10-23 15:26:13,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-23 15:26:13,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-23 15:26:13,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-23 15:26:14,007 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-23 15:26:14,010 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-23 15:26:14,010 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
