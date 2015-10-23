@@ -27,6 +27,11 @@
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',
                     menu: 'About' //Matches to name of 'About' menu in OMumNavigationProvider
+                })
+                .state('animal', {
+                    url: '/animal',
+                    templateUrl: '/App/Main/views/animal/animal.cshtml',
+                    menu: 'Animal' //Matches to name of 'About' menu in OMumNavigationProvider
                 });
         }
     ]);

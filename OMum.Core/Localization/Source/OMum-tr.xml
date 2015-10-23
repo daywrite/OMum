@@ -34,6 +34,10 @@
     <text name="Name" value="Name" />
     <text name="Surname" value="Surname" />
     <text name="EmailAddress" value="Email address" />
-
+    <!--
+      Create
+      2015-10-23 lwb
+    -->
+    <text name="Animal" value="Animal"></text>
   </texts>
 </localizationDictionary>

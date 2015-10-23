@@ -28,6 +28,10 @@
     <text name="LogIn" value="Log in" />
     
     <text name="LoginFailed" value="Login failed!" />
-
+    <!--
+      Create
+      2015-10-23 lwb
+    -->
+    <text name="Animal" value="Animal"></text>
   </texts>
 </localizationDictionary>
