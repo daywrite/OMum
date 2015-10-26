@@ -10,6 +10,7 @@ namespace OMum.Animals
 {
     public interface IAnimalAppService : IApplicationService
     {
+        Task<int> QueryCount();
         Task CreateAnimal(CreateAnimalInput input);
     }
 }

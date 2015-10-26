@@ -1,3 +1,10 @@
-﻿<div>
-    动物！
+﻿Search: <input ng-model="query">
+<div ng-controller="app.views.animal as vm">
+    <ul>
+        <li ng-repeat="phone in vm.phones| filter:query">
+            {{phone.name}}
+            <p>{{phone.snippet}}</p>
+        </li>
+    </ul>
+    {{vm.animal.count}}
 </div>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
@@ -20,12 +21,19 @@ namespace OMum.Web.Controllers
         public ActionResult Index()
         {
             //AddAnimal();
+            //QueryAnimalCount();
             return View();
         }
 
         public void AddAnimal()
         {
             _animalAppService.CreateAnimal(new CreateAnimalInput { Name = "猫" });
+        }
+
+        public async Task<int> QueryAnimalCount()
+        {
+            int x = await _animalAppService.QueryCount();
+            return x;
         }
     }
 }

@@ -16,7 +16,10 @@ namespace OMum.Animals
         {
             _animalRepository = animalRepository;
         }
-
+        public Task<int> QueryCount()
+        {
+            return _animalRepository.CountAsync();
+        }
         public async Task CreateAnimal(CreateAnimalInput input)
         {
             await _animalRepository.InsertAsync(new Animal { Name = input.Name });
