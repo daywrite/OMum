@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services;
+using Abp.Application.Services.Dto;
 using OMum.Animals.Dto;
 
 namespace OMum.Animals
@@ -12,5 +13,6 @@ namespace OMum.Animals
     {
         Task<int> QueryCount();
         Task CreateAnimal(CreateAnimalInput input);
+        PagedResultOutput<AnimalDto> GetAnimals(GetAnimalsInput input);
     }
 }
