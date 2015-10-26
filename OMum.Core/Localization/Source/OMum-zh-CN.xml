@@ -38,5 +38,6 @@
       2015-10-26 lwb
     -->
     <text name="AnimalDetail" value="列表"></text>
+    <text name="AnimalIndex" value="主页"></text>
   </texts>
 </localizationDictionary>

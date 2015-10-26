@@ -286,6 +286,7 @@
     <Content Include="App\Main\services\appSession.js" />
     <Content Include="App\Main\views\animal\animal.js" />
     <Content Include="App\Main\views\animal\detail.js" />
+    <Content Include="App\Main\views\animal\index.js" />
     <Content Include="App\Main\views\layout\header.js" />
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
@@ -414,6 +415,8 @@
     <Content Include="App\Main\views\animal\animal.cshtml" />
     <Content Include="App\Main\views\animal\detail.cshtml" />
     <Content Include="App\Main\views\animal\detail.less" />
+    <Content Include="App\Main\views\animal\index.cshtml" />
+    <Content Include="App\Main\views\animal\index.less" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

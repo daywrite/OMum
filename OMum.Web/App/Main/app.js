@@ -33,6 +33,11 @@
                     templateUrl: '/App/Main/views/animal/animal.cshtml',
                     menu: 'Animal' //Matches to name of 'About' menu in OMumNavigationProvider
                 })
+                .state('animalindex', {
+                    url: '/animalindex',
+                    templateUrl: '/App/Main/views/animal/index.cshtml',
+                    menu: 'AnimalIndex' //Matches to name of 'About' menu in OMumNavigationProvider
+                })
                 .state('animaldetail', {
                     url: '/animaldetail',
                     templateUrl: '/App/Main/views/animal/detail.cshtml',
