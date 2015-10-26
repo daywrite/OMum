@@ -33,5 +33,10 @@
       2015-10-23 lwb
     -->
     <text name="Animal" value="动物"></text>
+    <!--
+      Create
+      2015-10-26 lwb
+    -->
+    <text name="AnimalDetail" value="列表"></text>
   </texts>
 </localizationDictionary>

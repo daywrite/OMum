@@ -35,6 +35,14 @@ namespace OMum.Web
                        url: "#/animal",
                        icon: "fa fa-paw"
                        )
+                       .AddItem(
+                         new MenuItemDefinition(
+                             "AnimalDetail",
+                             new LocalizableString("AnimalDetail", OMumConsts.LocalizationSourceName),
+                             url: "#/animaldetail",
+                             icon: "fa fa-paw"
+                       )
+                   )
                 );
         }
     }
