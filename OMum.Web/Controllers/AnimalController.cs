@@ -40,7 +40,7 @@ namespace OMum.Web.Controllers
 
         public PagedResultOutput<AnimalDto> GetAnimals()
         {
-            PagedResultOutput<AnimalDto> r= _animalAppService.GetAnimals(new GetAnimalsInput { MaxResultCount = 10, SkipCount = 1000, Sorting = "Name" });
+            PagedResultOutput<AnimalDto> r = _animalAppService.GetAnimals(new GetAnimalsInput { MaxResultCount = 10, SkipCount = 0, Sorting = "Name DESC" });
             return r;
         }
     }

@@ -14,6 +14,7 @@ using System.Data.Entity;
 using Abp.Linq.Extensions;
 using Abp.AutoMapper;
 using OMum.Configuration;
+using Abp.Authorization;
 
 namespace OMum.Animals
 {
