@@ -13,6 +13,7 @@ using Abp.Configuration;
 using System.Data.Entity;
 using Abp.Linq.Extensions;
 using Abp.AutoMapper;
+using OMum.Configuration;
 
 namespace OMum.Animals
 {
@@ -36,7 +37,7 @@ namespace OMum.Animals
         {
             if (input.MaxResultCount <= 0)
             {
-                //input.MaxResultCount = SettingManager.GetSettingValue<int>(MySettingProvider.QuestionsDefaultPageSize);
+                input.MaxResultCount = SettingManager.GetSettingValue<int>(MySettingProvider.AnimalsDefaultPageSize);
             }
 
             var animalCount = _animalRepository.Count();

@@ -111,6 +111,7 @@
     <Compile Include="Animals\Dto\CreateAnimalInput.cs" />
     <Compile Include="Animals\Dto\GetAnimalsInput.cs" />
     <Compile Include="Animals\IAnimalAppService.cs" />
+    <Compile Include="Configuration\MySettingProvider.cs" />
     <Compile Include="OMumApplicationModule.cs" />
     <Compile Include="OMumAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

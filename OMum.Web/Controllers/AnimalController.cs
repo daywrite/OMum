@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Abp.Application.Services.Dto;
 using Abp.Web.Mvc.Authorization;
 using OMum.Animals;
 using OMum.Animals.Dto;
@@ -22,6 +23,7 @@ namespace OMum.Web.Controllers
         {
             //AddAnimal();
             //QueryAnimalCount();
+            GetAnimals();
             return View();
         }
 
@@ -34,6 +36,12 @@ namespace OMum.Web.Controllers
         {
             int x = await _animalAppService.QueryCount();
             return x;
+        }
+
+        public PagedResultOutput<AnimalDto> GetAnimals()
+        {
+            PagedResultOutput<AnimalDto> r= _animalAppService.GetAnimals(new GetAnimalsInput { MaxResultCount = 10, SkipCount = 1000, Sorting = "Name" });
+            return r;
         }
     }
 }
