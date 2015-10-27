@@ -1,0 +1,28 @@
+﻿<div>
+    <div class="modal-header">
+        <h3 class="modal-title">添加一个新的动物</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <label for="TitleInput" class="col-lg-2 control-label">名称:</label>
+                    <div class="col-lg-10">
+                        <input ng-model="vm.animal.name" type="text" class="form-control" name="TitleInput" placeholder="动物名称">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="TextInput" class="col-lg-2 control-label">描述:</label>
+                    <div class="col-lg-10">
+                        <textarea ng-model="vm.animal.text" class="form-control" rows="5" name="TextInput" placeholder="动物描述"></textarea>
+                        <span class="help-block">描述.</span>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-warning" ng-click="vm.cancel()">退出</button>
+        <button class="btn btn-primary" ng-click="vm.save()">保存</button>
+    </div>
+</div>

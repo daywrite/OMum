@@ -7194,3 +7194,261 @@ DEBUG 2015-10-27 09:33:19,019 [1    ] Default                                  -
 DEBUG 2015-10-27 09:33:19,020 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2015-10-27 09:33:19,021 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2015-10-27 09:33:19,022 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-27 11:25:07,428 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-27 11:25:09,042 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-27 11:25:09,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 11:25:09,055 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-27 11:25:11,065 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-27 11:25:11,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-27 11:25:11,075 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-27 11:25:11,076 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-27 11:25:11,076 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-27 11:25:13,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-27 11:25:13,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-27 11:25:13,548 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-27 11:25:13,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-27 11:25:13,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-27 11:25:13,599 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-27 11:25:13,600 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-27 11:25:13,600 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-27 11:25:13,601 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-27 13:26:51,092 [14   ] lers.Filters.AbpExceptionFilterAttribute - Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.CreateAnimal(CreateAnimalInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.CreateAnimal(CreateAnimalInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.CreateAnimal(CreateAnimalInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.CreateAnimal(CreateAnimalInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2015-10-27 13:26:51,094 [14   ] Default                                  - There are 1 validation errors:
+WARN  2015-10-27 13:26:51,094 [14   ] Default                                  - Name 字段是必需的。 (Name)
+ERROR 2015-10-27 13:26:55,005 [14   ] lers.Filters.AbpExceptionFilterAttribute - Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.CreateAnimal(CreateAnimalInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.CreateAnimal(CreateAnimalInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.CreateAnimal(CreateAnimalInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.CreateAnimal(CreateAnimalInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2015-10-27 13:26:55,005 [14   ] Default                                  - There are 1 validation errors:
+WARN  2015-10-27 13:26:55,005 [14   ] Default                                  - Name 字段是必需的。 (Name)
+DEBUG 2015-10-27 14:18:00,830 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-27 14:18:02,420 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-27 14:18:02,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:18:02,430 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-27 14:18:04,149 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-27 14:18:04,153 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-27 14:18:04,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-27 14:18:04,155 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-27 14:18:04,155 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-27 14:18:06,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-27 14:18:06,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-27 14:18:07,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-27 14:18:07,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-27 14:18:07,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-27 14:18:07,111 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-27 14:18:07,112 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-27 14:18:07,112 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-27 14:18:07,114 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-27 14:23:03,777 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-27 14:23:05,236 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-27 14:23:05,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 14:23:05,247 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-27 14:23:06,984 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-27 14:23:06,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-27 14:23:06,989 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-27 14:23:06,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-27 14:23:06,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-27 14:23:19,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-27 14:23:19,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-27 14:23:19,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-27 14:23:19,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-27 14:23:19,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-27 14:23:19,592 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-27 14:23:19,593 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-27 14:23:19,593 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-27 14:23:19,594 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
