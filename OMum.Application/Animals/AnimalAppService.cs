@@ -18,6 +18,7 @@ using Abp.Authorization;
 
 namespace OMum.Animals
 {
+    [AbpAuthorize]
     public class AnimalAppService : ApplicationService, IAnimalAppService
     {
         private readonly IRepository<Animal> _animalRepository;
@@ -25,6 +26,7 @@ namespace OMum.Animals
         {
             _animalRepository = animalRepository;
         }
+        [AbpAuthorize("CanQueryCount")]
         public Task<int> QueryCount()
         {
             return _animalRepository.CountAsync();

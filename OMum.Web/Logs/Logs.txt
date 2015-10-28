@@ -7452,3 +7452,2301 @@ DEBUG 2015-10-27 14:23:19,592 [1    ] Default                                  -
 DEBUG 2015-10-27 14:23:19,593 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2015-10-27 14:23:19,593 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2015-10-27 14:23:19,594 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-27 15:10:00,750 [66   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-27 15:10:03,314 [66   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-27 15:10:03,318 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,321 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,321 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,321 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,321 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,322 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,323 [66   ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 15:10:03,326 [66   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-27 15:10:04,945 [66   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-27 15:10:04,948 [66   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-27 15:10:04,949 [66   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-27 15:10:04,949 [66   ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-27 15:10:04,949 [66   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-27 15:10:06,978 [66   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-27 15:10:06,978 [66   ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-27 15:10:07,031 [66   ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-27 15:10:07,034 [66   ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-27 15:10:07,035 [66   ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-27 15:10:07,076 [66   ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-27 15:10:07,077 [66   ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-27 15:10:07,078 [66   ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-27 15:10:07,079 [66   ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-27 18:18:15,772 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-27 18:18:18,084 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-27 18:18:19,647 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-27 18:18:19,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-27 18:18:19,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-27 18:18:19,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-27 18:18:19,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-27 18:18:21,758 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-27 18:18:21,758 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-27 18:18:21,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-27 18:18:21,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-27 18:18:21,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-27 18:18:21,836 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-27 18:18:21,836 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-27 18:18:21,836 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-27 18:18:21,836 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-27 18:18:24,008 [138  ] lers.Filters.AbpExceptionFilterAttribute - System.OperationCanceledException: 已取消该操作。
+   在 System.Threading.CancellationToken.ThrowOperationCanceledException()
+   在 System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   在 System.Web.Http.HostAuthenticationFilter.<AuthenticateAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.OperationCanceledException: 已取消该操作。
+   在 System.Threading.CancellationToken.ThrowOperationCanceledException()
+   在 System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   在 System.Web.Http.HostAuthenticationFilter.<AuthenticateAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2015-10-28 19:34:21,081 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 19:34:22,798 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 19:34:22,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:34:22,811 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 19:34:24,828 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 19:34:24,833 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 19:34:24,834 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 19:34:24,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 19:34:24,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 19:34:27,302 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 19:34:27,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 19:34:27,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 19:34:27,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 19:34:27,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 19:34:27,461 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 19:34:27,462 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 19:34:27,463 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 19:34:27,464 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-10-28 19:39:23,241 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 19:39:25,092 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 19:39:25,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 19:39:25,104 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 19:39:27,149 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 19:39:27,155 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 19:39:27,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 19:39:27,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 19:39:27,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 19:39:29,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 19:39:29,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 19:39:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 19:39:29,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 19:39:29,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 19:39:30,011 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 19:39:30,012 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 19:39:30,013 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 19:39:30,013 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-28 19:39:42,881 [6    ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 19:39:59,259 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 19:43:01,740 [20   ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 19:43:11,006 [6    ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 19:43:26,754 [6    ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2015-10-28 20:03:09,936 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 20:03:11,572 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 20:03:11,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:03:11,583 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 20:03:13,485 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 20:03:13,490 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 20:03:13,491 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 20:03:13,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 20:03:13,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 20:03:15,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 20:03:15,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 20:03:15,837 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 20:03:15,840 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 20:03:15,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 20:03:15,883 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 20:03:15,884 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 20:03:15,884 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 20:03:15,885 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-28 20:04:21,982 [8    ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: There is no permission with name: CanQueryCount
+   在 Abp.Authorization.PermissionManager.GetPermission(String name)
+   在 Abp.Authorization.Users.AbpUserManager`3.<IsGrantedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionChecker`3.<IsGrantedAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2015-10-28 20:07:40,317 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 20:07:41,971 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 20:07:41,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:07:41,984 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 20:07:44,090 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 20:07:44,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 20:07:44,100 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 20:07:44,101 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 20:07:44,101 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 20:07:46,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 20:07:46,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 20:07:46,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 20:07:46,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 20:07:46,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 20:07:46,958 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 20:07:46,959 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 20:07:46,960 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 20:07:46,961 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-28 20:08:02,556 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 20:08:37,078 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 20:08:40,347 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 20:08:43,827 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 20:08:47,157 [6    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2015-10-28 20:28:27,657 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 20:28:29,337 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 20:28:29,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:28:29,349 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 20:28:31,338 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 20:28:31,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 20:28:31,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 20:28:31,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 20:28:31,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 20:28:33,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 20:28:33,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 20:28:34,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 20:28:34,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 20:28:34,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 20:28:34,120 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 20:28:34,121 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 20:28:34,122 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 20:28:34,125 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+ERROR 2015-10-28 20:28:50,914 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2015-10-28 20:29:09,427 [7    ] lers.Filters.AbpExceptionFilterAttribute - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: CanQueryCount
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Abp.Authorization.AuthorizeAttributeHelper.<AuthorizeAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Threading.AsyncHelper.RunSync(Func`1 action)
+   在 Abp.Authorization.AuthorizeAttributeHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Authorize(IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.InterceptSync(IInvocation invocation, IEnumerable`1 authorizeAttributes)
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AnimalAppServiceProxy.QueryCount()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_1.QueryCount()
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.Extensions.ExceptionExtensions.ReThrow(Exception exception)
+   在 Abp.WebApi.Controllers.Dynamic.Selectors.DynamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2015-10-28 20:31:38,516 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-10-28 20:31:40,057 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-10-28 20:31:40,060 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-10-28 20:31:40,070 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-10-28 20:31:41,905 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-10-28 20:31:41,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-10-28 20:31:41,914 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-10-28 20:31:41,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-10-28 20:31:41,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-10-28 20:31:44,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-10-28 20:31:44,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-10-28 20:31:44,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-10-28 20:31:44,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-10-28 20:31:44,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-10-28 20:31:44,407 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-10-28 20:31:44,407 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-10-28 20:31:44,408 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-10-28 20:31:44,410 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
