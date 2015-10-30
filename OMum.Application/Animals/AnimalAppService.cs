@@ -29,13 +29,15 @@ namespace OMum.Animals
         [AbpAuthorize("CanQueryCount")]
         public Task<int> QueryCount()
         {
+            if (PermissionChecker.IsGranted("GetAnimals"))
+            { }
             return _animalRepository.CountAsync();
         }
         public async Task CreateAnimal(CreateAnimalInput input)
         {
             await _animalRepository.InsertAsync(new Animal { Name = input.Name });
         }
-
+        [AbpAuthorize("GetAnimals")]
         public PagedResultOutput<AnimalDto> GetAnimals(GetAnimalsInput input)
         {
             if (input.MaxResultCount <= 0)

@@ -13,7 +13,8 @@ namespace OMum.Authorization
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
             //TODO: Localize (Change FixedLocalizableString to LocalizableString)
-            context.CreatePermission("CanQueryCount", new FixedLocalizableString("Can create questions"), isGrantedByDefault: true);
+            context.CreatePermission("GetAnimals", new FixedLocalizableString("GetAnimals"));
+            context.CreatePermission("CanQueryCount", new FixedLocalizableString("CanQueryCount"), isGrantedByDefault: true);
         }
     }
 }
