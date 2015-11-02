@@ -139,6 +139,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelConfiguration\AuditLogConfiguration.cs" />
     <Compile Include="ModelConfiguration\PermissionConfiguration.cs" />
+    <Compile Include="ModelConfiguration\RolePermissionConfiguration.cs" />
+    <Compile Include="ModelConfiguration\UserPermissionConfiguration.cs" />
     <Compile Include="ModelConfiguration\RoleConfiguration.cs" />
     <Compile Include="ModelConfiguration\TenantConfiguration.cs" />
     <Compile Include="ModelConfiguration\UserConfiguration.cs" />
