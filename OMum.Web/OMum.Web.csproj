@@ -292,6 +292,8 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
+    <Content Include="App\Main\views\newlayout\header.js" />
+    <Content Include="App\Main\views\newlayout\layout.js" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -419,6 +421,8 @@
     <Content Include="App\Main\views\animal\index.cshtml" />
     <Content Include="App\Main\views\animal\index.less" />
     <Content Include="App\Main\views\animal\createAnimal.cshtml" />
+    <Content Include="App\Main\views\newlayout\layout.cshtml" />
+    <Content Include="App\Main\views\newlayout\header.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1278,7 +1282,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>6234</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:6334/</IISUrl>
+          <IISUrl>http://localhost:6338/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
