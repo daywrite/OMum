@@ -34,6 +34,11 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
         title: 'Menu View',
         templateUrl: helper.basepath('SingleView/MenuView')
     })
+    .state('app.animalview', {
+        url: '/AnimalView',
+        title: '¶¯Îï',
+        templateUrl: helper.basepath('Animal/Index')
+    })
     // 
     // CUSTOM RESOLVES
     //   Add your own resolves properties
