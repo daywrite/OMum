@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "text": "Menu Heading",
     "heading": "true",
@@ -21,5 +21,17 @@
       }    
     ],
     "translate": "sidebar.nav.menu.MENU"
+  },
+  {
+    "text": "动物",
+    "sref": "#",
+    "icon": "icon-social-twitter",
+    "submenu": [
+      { "text": "列表", 
+        "sref": "app.animalview", 
+        "translate": "sidebar.nav.animal.INDEX" 
+      }    
+    ],
+    "translate": "sidebar.nav.animal.ANIMAL"
   }
 ]

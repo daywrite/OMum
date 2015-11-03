@@ -1,4 +1,4 @@
-{
+﻿{
   "dashboard": {
     "WELCOME": "Welcome to {{appName}}"
   },
@@ -17,7 +17,11 @@
       "menu": {
         "MENU": "Menu",
         "SUBMENU": "Sub Menu"
-      }
+      },
+	  "animal":{
+	    "ANIMAL": "动物",
+        "INDEX": "列表"
+	  }
     }
   }
 }
