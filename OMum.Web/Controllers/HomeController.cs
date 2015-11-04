@@ -8,7 +8,7 @@ namespace OMum.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
+            return View("~/App/Main/views/newlayout/layout.cshtml"); //Layout of the angular application.
         }
 	}
 }
