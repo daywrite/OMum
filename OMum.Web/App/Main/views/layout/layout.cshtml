@@ -1,56 +1,24 @@
-﻿@using System.Threading
-@using System.Web.Optimization
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="angle">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>OMum</title>
-
-    <link rel="shortcut icon" href="~/favicon.ico">
-
-    @Styles.Render("~/Bundles/App/vendor/css")
-    @Styles.Render("~/Bundles/App/Main/css")
-
-    <script type="text/javascript">
-        //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
-        var abp = abp || {}; abp.appPath = '@ApplicationPath';
-    </script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="@Url.Content("~/Scripts/others/html5shiv.js")"></script>
-        <script src="@Url.Content("~/Scripts/others/respond.min.js")"></script>
-    <![endif]-->
-    @Scripts.Render("~/Bundles/App/vendor/js")
-
-    <script>
-        //Localizing momentjs
-        moment.locale('@Thread.CurrentThread.CurrentUICulture.Name');
-    </script>
-
-    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
-    <script src="~/api/AbpServiceProxies/GetAll"></script>
-    <script src="~/api/AbpServiceProxies/GetAll?type=angular"></script>
-    <script src="~/AbpScripts/GetScripts" type="text/javascript"></script>
-
-    @Scripts.Render("~/Bundles/App/Main/js")
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="{{app.description}}">
+    <meta name="keywords" content="app, responsive, angular, bootstrap, dashboard, admin">
+    <title data-ng-bind="::pageTitle()">Angle - Angular Bootstrap Admin Template</title>
+    <!-- Bootstrap styles-->
+    <link rel="stylesheet" href="~/App/Main/css/bootstrap.css" data-ng-if="!app.layout.isRTL">
+    <link rel="stylesheet" href="~/App/Main/css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
+    <!-- Application styles-->
+    <link rel="stylesheet" href="~/App/Main/css/app.css" data-ng-if="!app.layout.isRTL">
+    <link rel="stylesheet" href="~/App/Main/css/app-rtl.css" data-ng-if="app.layout.isRTL">
+    <!-- Themes-->
+    <link rel="stylesheet" ng-href="{{app.layout.theme}}" data-ng-if="app.layout.theme">
 </head>
-<body>
-    <div ng-app="app">
-        <div ng-controller="app.views.layout as vm">
-            <div ng-include="'/App/Main/views/layout/header.cshtml'"></div>
-            <div class="container">
-                <div class="angular-animation-container row">
-                    <div ui-view class="shuffle-animation col-xs-12"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<body data-ng-class="{ 'layout-fixed' : app.layout.isFixed, 'aside-collapsed' : app.layout.isCollapsed, 'layout-boxed' : app.layout.isBoxed, 'layout-fs': app.useFullLayout, 'hidden-footer': app.hiddenFooter, 'layout-h': app.layout.horizontal, 'aside-float': app.layout.isFloat}">
+    <div data-ui-view="" data-autoscroll="false" class="wrapper"></div>
+
+    <script src="~/App/Main/javascript/base.js"></script>
+    <script src="~/App/Main/javascript/common/app.js"></script>
 </body>
 </html>

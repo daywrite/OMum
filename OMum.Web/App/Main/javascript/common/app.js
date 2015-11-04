@@ -92,19 +92,19 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
     .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: helper.basepath('app.html'),
+        templateUrl: '/App/Main/views/app.html',
         controller: 'AppController',
         resolve: helper.resolveFor('modernizr', 'icons')
     })
     .state('app.singleview', {
         url: '/singleview',
         title: 'Single View',
-        templateUrl: helper.basepath('singleview.html')
+        templateUrl: '/App/Main/views/singleview.html',
     })
     .state('app.submenu', {
         url: '/submenu',
         title: 'Submenu',
-        templateUrl: helper.basepath('submenu.html')
+        templateUrl: '/App/Main/views/submenu.html'
     })
     // 
     // CUSTOM RESOLVES
@@ -150,7 +150,7 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
 }]).config(['$translateProvider', function ($translateProvider) {
 
     $translateProvider.useStaticFilesLoader({
-        prefix : 'app/i18n/',
+        prefix : 'app/Main/i18n/',
         suffix : '.json'
     });
     $translateProvider.preferredLanguage('en');
