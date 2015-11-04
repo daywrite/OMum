@@ -308,17 +308,13 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
-    <Content Include="App\Main\views\newlayout\header.js" />
     <Content Include="App\Main\views\newlayout\layout.js" />
+    <Content Include="App\views\submenu.html" />
     <Content Include="App\views\app.html" />
-    <Content Include="App\views\partials\footer.html" />
-    <Content Include="App\views\partials\offsidebar-tab1.html" />
-    <Content Include="App\views\partials\offsidebar-tab2.html" />
     <Content Include="App\views\partials\offsidebar.html" />
     <Content Include="App\views\partials\sidebar.html" />
     <Content Include="App\views\partials\top-navbar.html" />
     <Content Include="App\views\singleview.html" />
-    <Content Include="App\views\submenu.html" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -463,7 +459,6 @@
     <Content Include="App\Main\views\animal\index.cshtml" />
     <Content Include="App\Main\views\animal\index.less" />
     <Content Include="App\Main\views\animal\createAnimal.cshtml" />
-    <Content Include="App\Main\views\newlayout\header.cshtml" />
     <Content Include="App\Main\views\newlayout\layout.cshtml" />
     <Content Include="Master\.bowerrc" />
     <Content Include="Master\bower.json" />
