@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 <html lang="en" data-ng-app="angle">
 <head>
     <meta charset="utf-8">
@@ -18,7 +19,7 @@
 <body data-ng-class="{ 'layout-fixed' : app.layout.isFixed, 'aside-collapsed' : app.layout.isCollapsed, 'layout-boxed' : app.layout.isBoxed, 'layout-fs': app.useFullLayout, 'hidden-footer': app.hiddenFooter, 'layout-h': app.layout.horizontal, 'aside-float': app.layout.isFloat}">
     <div data-ui-view="" data-autoscroll="false" class="wrapper"></div>
 
-    <script src="~/App/Main/javascript/base.js"></script>
-    <script src="~/App/Main/javascript/common/app.js"></script>
+    @Scripts.Render("~/bundles/baseScripts")
+    @Scripts.Render("~/bundles/appScripts")
 </body>
 </html>

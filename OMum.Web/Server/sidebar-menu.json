@@ -1,25 +1,27 @@
-[
+﻿[
   {
     "text": "Menu Heading",
     "heading": "true",
     "translate": "sidebar.heading.HEADER"
   },
   {
-    "text": "Single View",
-    "sref": "app.singleview",
-    "icon": "fa fa-file-o",
-    "translate": "sidebar.nav.SINGLEVIEW"
-  },
-  {
-    "text": "Menu",
+    "text": "用户管理",
     "sref": "#",
-    "icon": "icon-folder",
+    "icon": "icon-user",
     "submenu": [
-      { "text": "Sub Menu", 
-        "sref": "app.submenu", 
-        "translate": "sidebar.nav.menu.SUBMENU" 
-      }    
+      { "text": "用户", 
+        "sref": "app.userindex", 
+        "translate": "用户" 
+      },
+	   { "text": "角色", 
+        "sref": "app.userrole", 
+        "translate": "角色" 
+      },
+	   { "text": "权限", 
+        "sref": "app.userpermission", 
+        "translate": "权限" 
+      }          
     ],
-    "translate": "sidebar.nav.menu.MENU"
+    "translate": "用户管理"
   }
 ]

@@ -1,4 +1,4 @@
-{
+﻿{
   "dashboard": {
     "WELCOME": "Welcome to {{appName}}"
   },
@@ -10,7 +10,7 @@
   "sidebar": {
     "WELCOME": "Welcome",
     "heading": {
-      "HEADER": "Main Navigation"
+      "HEADER": "主菜单"
     },
     "nav": {
       "SINGLEVIEW": "Single View",
