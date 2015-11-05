@@ -8,75 +8,27 @@ namespace OMum.Web
         {
             bundles.IgnoreList.Clear();
 
-            //VENDOR RESOURCES
-
-            //~/Bundles/App/vendor/css
-            bundles.Add(
-                new StyleBundle("~/Bundles/App/vendor/css")
-                    .Include(
-                        "~/Content/themes/base/all.css",
-                        "~/Content/bootstrap-cosmo.min.css",
-                        "~/Content/toastr.min.css",
-                        "~/Scripts/sweetalert/sweet-alert.css",
-                        "~/Content/flags/famfamfam-flags.css",
-                        "~/Content/font-awesome.min.css"
-                    )
-                );
-
-            //~/Bundles/App/vendor/js
-            bundles.Add(
-                new ScriptBundle("~/Bundles/App/vendor/js")
-                    .Include(
-                        "~/Abp/Framework/scripts/utils/ie10fix.js",
-                        "~/Scripts/json2.min.js",
-
-                        "~/Scripts/modernizr-2.8.3.js",
-                        
-                        "~/Scripts/jquery-2.1.4.min.js",
-                        "~/Scripts/jquery-ui-1.11.4.min.js",
-
-                        "~/Scripts/bootstrap.min.js",
-
-                        "~/Scripts/moment-with-locales.min.js",
-                        "~/Scripts/jquery.blockUI.js",
-                        "~/Scripts/toastr.min.js",
-                        "~/Scripts/sweetalert/sweet-alert.min.js",
-                        "~/Scripts/others/spinjs/spin.js",
-                        "~/Scripts/others/spinjs/jquery.spin.js",
-
-                        "~/Scripts/angular.min.js",
-                        "~/Scripts/angular-animate.min.js",
-                        "~/Scripts/angular-sanitize.min.js",
-                        "~/Scripts/angular-ui-router.min.js",
-                        "~/Scripts/angular-ui/ui-bootstrap.min.js",
-                        "~/Scripts/angular-ui/ui-bootstrap-tpls.min.js",
-                        "~/Scripts/angular-ui/ui-utils.min.js",
-
-                        "~/Abp/Framework/scripts/abp.js",
-                        "~/Abp/Framework/scripts/libs/abp.jquery.js",
-                        "~/Abp/Framework/scripts/libs/abp.toastr.js",
-                        "~/Abp/Framework/scripts/libs/abp.blockUI.js",
-                        "~/Abp/Framework/scripts/libs/abp.spin.js",
-                        "~/Abp/Framework/scripts/libs/abp.sweet-alert.js",
-                        "~/Abp/Framework/scripts/libs/angularjs/abp.ng.js"
-                    )
-                );
             //业务
             bundles.Add(new ScriptBundle("~/bundles/appScripts")
                 .IncludeDirectory("~/App/Main/javascript", "*.js", true));
             //基础(not lazyloaded)
             bundles.Add(new ScriptBundle("~/bundles/baseScripts").Include(
-              "~/Vendor/modernizr/modernizr.js",
-              "~/Vendor/jquery/dist/jquery.js",
-              "~/Vendor/angular/angular.js",
+                  "~/Abp/Framework/scripts/utils/ie10fix.js",//Abp
+                        "~/Scripts/json2.min.js",//Abp
+
+              "~/Vendor/modernizr/modernizr.js",//Abp+A
+
+              "~/Vendor/jquery/dist/jquery.js",//Abp+A
+
+              "~/Vendor/angular/angular.js",//Abp+A
               "~/Vendor/angular-route/angular-route.js",
               "~/Vendor/angular-cookies/angular-cookies.js",
-              "~/Vendor/angular-animate/angular-animate.js",
+              "~/Vendor/angular-animate/angular-animate.js",//Abp+A
               "~/Vendor/angular-touch/angular-touch.js",
-              "~/Vendor/angular-ui-router/release/angular-ui-router.js",
+              "~/Vendor/angular-ui-router/release/angular-ui-router.js",//Abp+A
               "~/Vendor/ngstorage/ngStorage.js",
-              "~/Vendor/angular-ui-utils/ui-utils.js",
-              "~/Vendor/angular-sanitize/angular-sanitize.js",
+              "~/Vendor/angular-ui-utils/ui-utils.js",//Abp+A
+              "~/Vendor/angular-sanitize/angular-sanitize.js",//Abp+A
               "~/Vendor/angular-resource/angular-resource.js",
               "~/Vendor/angular-translate/angular-translate.js",
               "~/Vendor/angular-translate-loader-url/angular-translate-loader-url.js",
@@ -84,9 +36,17 @@ namespace OMum.Web
               "~/Vendor/angular-translate-storage-local/angular-translate-storage-local.js",
               "~/Vendor/angular-translate-storage-cookie/angular-translate-storage-cookie.js",
               "~/Vendor/oclazyload/dist/ocLazyLoad.js",
-              "~/Vendor/angular-bootstrap/ui-bootstrap-tpls.js",
+              "~/Vendor/angular-bootstrap/ui-bootstrap-tpls.js",//Abp+A
               "~/Vendor/angular-loading-bar/build/loading-bar.js",
-              "~/Vendor/angular-dynamic-locale/dist/tmhDynamicLocale.js"   
+              "~/Vendor/angular-dynamic-locale/dist/tmhDynamicLocale.js",
+
+                 "~/Abp/Framework/scripts/abp.js",
+                        "~/Abp/Framework/scripts/libs/abp.jquery.js",
+                        "~/Abp/Framework/scripts/libs/abp.toastr.js",
+                        "~/Abp/Framework/scripts/libs/abp.blockUI.js",
+                        "~/Abp/Framework/scripts/libs/abp.spin.js",
+                        "~/Abp/Framework/scripts/libs/abp.sweet-alert.js",
+                        "~/Abp/Framework/scripts/libs/angularjs/abp.ng.js"
             ));
             //APPLICATION RESOURCES
 
