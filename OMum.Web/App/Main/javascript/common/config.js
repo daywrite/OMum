@@ -35,6 +35,11 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
           title: 'Submenu',
           templateUrl: '/App/Main/views/submenu.html'
       })
+      .state('app.tenantindex', {
+          url: '/tenant',
+          title: '租户',
+          templateUrl: '/App/Main/views/tenant/index.html'
+       })
       .state('app.userindex', {
           url: '/user',
           title: '用户',

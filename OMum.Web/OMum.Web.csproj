@@ -276,6 +276,7 @@
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
     <Content Include="App\Main\css\app-rtl.css" />
+    <Content Include="App\Main\css\app-1.css" />
     <Content Include="App\Main\css\app.css" />
     <Content Include="App\Main\css\bootstrap-rtl.css" />
     <Content Include="App\Main\css\bootstrap.css" />
@@ -320,6 +321,10 @@
     <Content Include="App\Main\views\partials\top-navbar.html" />
     <Content Include="App\Main\views\singleview.html" />
     <Content Include="App\Main\views\submenu.html" />
+    <Content Include="App\Main\views\tenant\create.html" />
+    <Content Include="App\Main\views\tenant\create.js" />
+    <Content Include="App\Main\views\tenant\index.html" />
+    <Content Include="App\Main\views\tenant\index.js" />
     <Content Include="App\Main\views\user\index.js" />
     <Content Include="App\Main\views\user\permission.js" />
     <Content Include="App\Main\views\user\role.js" />
@@ -679,6 +684,7 @@
     <Content Include="App\Main\views\user\index.html" />
     <Content Include="App\Main\views\user\role.html" />
     <Content Include="App\Main\views\user\permission.html" />
+    <Content Include="Content\tm.pagination.css" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1450,6 +1456,7 @@
     <Content Include="Scripts\sweetalert\sweet-alert.html" />
     <Content Include="Scripts\sweetalert\sweet-alert.js" />
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
+    <Content Include="Scripts\tm.pagination.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Vendor\angular-animate\angular-animate.js" />

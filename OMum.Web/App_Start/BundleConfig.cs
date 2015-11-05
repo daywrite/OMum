@@ -10,7 +10,7 @@ namespace OMum.Web
 
             //业务
             bundles.Add(new ScriptBundle("~/bundles/appScripts")
-                .IncludeDirectory("~/App/Main/javascript", "*.js", true));
+                .IncludeDirectory("~/App/Main", "*.js", true));
             //基础(not lazyloaded)
             bundles.Add(new ScriptBundle("~/bundles/baseScripts").Include(
                   "~/Abp/Framework/scripts/utils/ie10fix.js",//Abp
@@ -19,6 +19,11 @@ namespace OMum.Web
               "~/Vendor/modernizr/modernizr.js",//Abp+A
 
               "~/Vendor/jquery/dist/jquery.js",//Abp+A
+
+              "~/Scripts/moment-with-locales.min.js",//语言选择
+              "~/Scripts/toastr.min.js",
+              "~/Scripts/sweetalert/sweet-alert.min.js",
+              
 
               "~/Vendor/angular/angular.js",//Abp+A
               "~/Vendor/angular-route/angular-route.js",
@@ -46,21 +51,11 @@ namespace OMum.Web
                         "~/Abp/Framework/scripts/libs/abp.blockUI.js",
                         "~/Abp/Framework/scripts/libs/abp.spin.js",
                         "~/Abp/Framework/scripts/libs/abp.sweet-alert.js",
-                        "~/Abp/Framework/scripts/libs/angularjs/abp.ng.js"
+                        "~/Abp/Framework/scripts/libs/angularjs/abp.ng.js",
+
+                        "~/Scripts/tm.pagination.js"//分页
             ));
-            //APPLICATION RESOURCES
-
-            //~/Bundles/App/Main/css
-            bundles.Add(
-                new StyleBundle("~/Bundles/App/Main/css")
-                    .IncludeDirectory("~/App/Main", "*.css", true)
-                );
-
-            //~/Bundles/App/Main/js
-            bundles.Add(
-                new ScriptBundle("~/Bundles/App/Main/js")
-                    .IncludeDirectory("~/App/Main", "*.js", true)
-                );
+           
         }
     }
 }

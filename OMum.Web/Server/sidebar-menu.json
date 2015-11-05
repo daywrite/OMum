@@ -9,6 +9,10 @@
     "sref": "#",
     "icon": "icon-user",
     "submenu": [
+	  { "text": "租户", 
+        "sref": "app.tenantindex", 
+        "translate": "租户" 
+      },
       { "text": "用户", 
         "sref": "app.userindex", 
         "translate": "用户" 

@@ -1,0 +1,37 @@
+﻿<h3>
+    租户管理
+    <small>Tenant Management</small>
+</h3>
+<p ng-controller="TenantContraller as vm">
+    <button class="btn btn-info" ng-click="vm.showNewTenant()"><i class="fa fa-plus"></i>创建</button>
+</p>
+<div class="panel panel-default" ng-controller="TenantContraller as vm">
+    <div class="panel-heading">租户列表</div>
+    <!--S-租户表-->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>标识</th>
+                    <th>名称</th>
+                    <th>租户名</th>
+                    <th>创建时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="tenant in phones">
+                <tr>
+                    <td>{{tenant.id}}</td>
+                    <td>{{tenant.name}}</td>
+                    <td>{{tenant.tenancyName}}</td>
+                    <td>{{tenant.creationTime}}</td>
+                    <td>{{tenant.isActive}}</td>
+                    <td>管理</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--E-租户表-->
+    <tm-pagination conf="paginationConf"></tm-pagination>
+</div>

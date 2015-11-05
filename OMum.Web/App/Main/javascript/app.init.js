@@ -25,7 +25,10 @@ var App = angular.module('angle', [
     'cfp.loadingBar',
     'ngSanitize',
     'ngResource',
-    'ui.utils'
+    'ui.utils',
+
+     'abp',
+     'tm.pagination'
   ]);
 
 App.run(["$rootScope", "$state", "$stateParams",  '$window', '$templateCache', function ($rootScope, $state, $stateParams, $window, $templateCache) {
