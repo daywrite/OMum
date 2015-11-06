@@ -291,6 +291,7 @@
     <Content Include="App\Main\images\logos\logo-single.png" />
     <Content Include="App\Main\images\logos\logo.png" />
     <Content Include="App\Main\javascript\app.init.js" />
+    <Content Include="App\Main\javascript\base\obear.globle.js" />
     <Content Include="App\Main\javascript\common\config.js" />
     <Content Include="App\Main\javascript\controllers\sidebar-menu.js" />
     <Content Include="App\Main\views\layout\layout.js" />
