@@ -21,6 +21,9 @@ namespace OMum.Tenants.Dto
         public string Sorting { get; set; }
 
         public string TenantName { get; set; }
+
+        public int pageIndex { get; set; }
+        public int pageSize { get; set; }
         public void AddValidationErrors(List<ValidationResult> results)
         {
             var validSortingValues = new[] { "CreationTime DESC" };
