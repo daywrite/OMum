@@ -66,9 +66,10 @@ namespace OMum.Tenants
             throw new NotImplementedException();
         }
 
-        Task ITenantAppService.DeleteTenant(int TenantId)
+        public async Task DeleteTenant(int TenantId)
         {
-            throw new NotImplementedException();
+            var tenant = await TenantManager.GetByIdAsync(TenantId);
+            CheckErrors(await TenantManager.DeleteAsync(tenant));
         }
     }
 }

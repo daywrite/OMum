@@ -1,4 +1,8 @@
-﻿/**=========================================================
+﻿/// <reference path="../../../../Vendor/bootbox/bootbox.min.js" />
+/// <reference path="../../../../Vendor/bootbox/bootbox.min.js" />
+/// <reference path="../../../../Vendor/bootbox/bootbox.min.js" />
+/// <reference path="../../../../Vendor/bootbox/bootbox.min.js" />
+/**=========================================================
  * Module: config.js
  * App routes and resources configuration
  =========================================================*/
@@ -38,7 +42,7 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
       .state('app.tenantindex', {
           url: '/tenant',
           title: '租户',
-          templateUrl: '/App/Main/views/tenant/index.html'
+          templateUrl: '/App/Main/views/tenant/index.html'          
        })
       .state('app.userindex', {
           url: '/user',

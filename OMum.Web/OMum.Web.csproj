@@ -1518,6 +1518,7 @@
     <Content Include="Vendor\angular\angular.js" />
     <Content Include="Vendor\angular\angular.min.js" />
     <Content Include="Vendor\angular\index.js" />
+    <Content Include="Vendor\bootbox\bootbox.min.js" />
     <Content Include="Vendor\fontawesome\css\font-awesome.css" />
     <Content Include="Vendor\fontawesome\css\font-awesome.min.css" />
     <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.svg" />
@@ -1966,6 +1967,8 @@
     <Content Include="Vendor\simple-line-icons\less\simple-line-icons.less" />
     <Content Include="Vendor\simple-line-icons\README.md" />
     <Content Include="Vendor\simple-line-icons\scss\simple-line-icons.scss" />
+    <Content Include="Vendor\bootbox\LICENSE.md" />
+    <Content Include="Vendor\bootbox\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

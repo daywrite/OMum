@@ -1,5 +1,6 @@
 ﻿  .page-list .pagination {
-        float: left;
+        float: right;
+        border:1px solid #31BBE6;
     }
 
         .page-list .pagination span {
@@ -32,5 +33,5 @@
         }
 
         .page-list .page-total select {
-            width: 50px;
+            width: 50px;            
         }

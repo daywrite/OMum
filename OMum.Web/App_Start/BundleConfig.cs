@@ -23,7 +23,9 @@ namespace OMum.Web
               "~/Scripts/moment-with-locales.min.js",//语言选择
               "~/Scripts/toastr.min.js",
               "~/Scripts/sweetalert/sweet-alert.min.js",
-              
+
+               "~/Scripts/bootstrap.min.js",
+               "~/Vendor/bootbox/bootbox.min.js",
 
               "~/Vendor/angular/angular.js",//Abp+A
               "~/Vendor/angular-route/angular-route.js",
@@ -43,7 +45,8 @@ namespace OMum.Web
               "~/Vendor/oclazyload/dist/ocLazyLoad.js",
               "~/Vendor/angular-bootstrap/ui-bootstrap-tpls.js",//Abp+A
               "~/Vendor/angular-loading-bar/build/loading-bar.js",
-              "~/Vendor/angular-dynamic-locale/dist/tmhDynamicLocale.js",
+              
+
 
                  "~/Abp/Framework/scripts/abp.js",
                         "~/Abp/Framework/scripts/libs/abp.jquery.js",
