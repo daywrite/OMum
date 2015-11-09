@@ -1,12 +1,9 @@
 ﻿(function () {
-    App.controller("UserContraller", [
-        '$scope', 'abp.services.app.user', '$modal', '$rootScope', 'appSession', function ($scope, userService, $modal, $rootScope, appSession) {
+    App.controller("TenantContraller", [
+        '$scope', 'abp.services.app.tenant', '$modal', '$rootScope', function ($scope, tenantService, $modal, $rootScope) {
             var vm = this;
-            var tenantId;
 
-            var tenant = appSession.tenant;
-
-            vm.users = [];
+            vm.tenants = [];
             //分页基本参数
             $scope.paginationConf = {
                 currentPage: 1,
@@ -20,15 +17,14 @@
                 var postData = {
                     MaxResultCount: 100,
                     pageIndex: $scope.paginationConf.currentPage,
-                    pageSize: $scope.paginationConf.itemsPerPage,
-                    tenantId: appSession ? tenant.id : null
+                    pageSize: $scope.paginationConf.itemsPerPage
                 }
 
                 abp.ui.setBusy(
                     null,
-                    userService.getUsers(postData).success(function (data) {
+                    tenantService.getTenants(postData).success(function (data) {
                         $scope.paginationConf.totalItems = data.totalCount;
-                        vm.users = data.items;
+                        vm.tenants = data.items;
                     })
                 );
             };
@@ -94,7 +90,7 @@
                         });
                     }
                 });
-
+               
             };
         }
     ]);

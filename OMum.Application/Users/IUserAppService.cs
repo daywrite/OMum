@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Abp.Application.Services;
+using Abp.Application.Services.Dto;
 using OMum.Users.Dto;
 
 namespace OMum.Users
@@ -9,5 +10,6 @@ namespace OMum.Users
         Task ProhibitPermission(ProhibitPermissionInput input);
 
         Task RemoveFromRole(long userId, string roleName);
+        PagedResultOutput<UserDto> GetUsers(GetUserInput input);
     }
 }

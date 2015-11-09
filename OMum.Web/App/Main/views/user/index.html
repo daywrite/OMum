@@ -1,0 +1,45 @@
+﻿<h3>
+    租户管理
+    <small>Tenant Management</small>
+</h3>
+<div ng-controller="UserContraller as vm">
+    <p>
+        <button class="btn btn-info" ng-click="vm.showNewUser()"><i class="fa fa-plus"></i>创建</button>
+    </p>
+    <div class="panel panel-default">
+        <div class="panel-heading">用户列表</div>
+        <!--S-用户表-->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th style="width:50px;">标识</th>
+                        <th>名称</th>
+                        <th>用户名</th>
+                        <th style="width:150px;">创建时间</th>
+                        <th style="width:100px;">状态</th>
+                        <th style="width:100px;">操作</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="user in vm.users">
+                    <tr>
+                        <td>{{user.id}}</td>
+                        <td>{{user.name}}</td>
+                        <td>{{user.userName}}</td>
+                        <td>{{user.creationTime | date:"MM/dd/yyyy @ h:mma"}}</td>
+                        <td>
+                            <span class="label label-sm label-green" ng-if="tenant.isActive">启用</span>
+                            <span class="label label-sm label-danger" ng-if="!tenant.isActive">停用</span>
+                        </td>
+                        <td>
+                            <a class="label label-sm label-green" ng-click="vm.updateTenant($index)"><em class="fa fa-pencil"></em></a>
+                            <a class="label label-sm label-danger" ng-click="vm.deleteTenant($index)"><em class="fa fa-trash"></em></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--E-用户表-->
+        <tm-pagination conf="paginationConf"></tm-pagination>
+    </div>
+</div>
