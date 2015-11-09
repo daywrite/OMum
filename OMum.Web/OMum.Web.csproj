@@ -294,6 +294,7 @@
     <Content Include="App\Main\javascript\base\obear.globle.js" />
     <Content Include="App\Main\javascript\common\config.js" />
     <Content Include="App\Main\javascript\controllers\sidebar-menu.js" />
+    <Content Include="App\Main\javascript\services\appSession.js" />
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\partials\footer.html" />
     <Content Include="App\Main2\app.js" />
@@ -326,6 +327,8 @@
     <Content Include="App\Main\views\tenant\create.js" />
     <Content Include="App\Main\views\tenant\index.html" />
     <Content Include="App\Main\views\tenant\index.js" />
+    <Content Include="App\Main\views\user\create.html" />
+    <Content Include="App\Main\views\user\create.js" />
     <Content Include="App\Main\views\user\index.js" />
     <Content Include="App\Main\views\user\permission.js" />
     <Content Include="App\Main\views\user\role.js" />

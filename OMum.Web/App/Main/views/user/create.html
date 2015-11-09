@@ -1,0 +1,36 @@
+﻿<div>
+    <div class="modal-header">
+        <h3>租户创建</h3>
+        <small>Tenant Create</small>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">名称</label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="租户的名称，相当于Name" class="form-control" ng-model="vm.tenant.name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">租户名</label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="租户名，相当TName" class="form-control" ng-model="vm.tenant.tenancyName" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <div class="inline checkbox c-checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="vm.tenant.isActive" />
+                            <span class="fa fa-check"></span>是否激活
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="vm.cancel()">退出</button>
+        <button class="btn btn-success" ng-click="vm.save()">保存</button>
+    </div>
+</div>
