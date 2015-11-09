@@ -13,6 +13,7 @@ namespace OMum.Tenants.Dto
     /// </summary>
     public class CreateTenantInput : IInputDto
     {
+        public int Id { get; set; }
         //
         // 摘要: 
         //     Display name of the Tenant.
@@ -26,5 +27,7 @@ namespace OMum.Tenants.Dto
         [Required]
         [StringLength(64)]
         public string TenancyName { get; set; }
+
+        public bool IsActive { get; set; }
     }
 }

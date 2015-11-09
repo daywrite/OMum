@@ -29,7 +29,7 @@
                         <td>{{tenant.creationTime | date:"MM/dd/yyyy @ h:mma"}}</td>
                         <td><span class="label label-sm label-green" ng-if="tenant.isActive">启用</span>
                             <span class="label label-sm label-danger" ng-if="!tenant.isActive">停用</span></td>
-                        <td><a class="label label-sm label-green"><em class="fa fa-pencil"></em></a>
+                        <td><a class="label label-sm label-green" ng-click="vm.updateTenant($index)"><em class="fa fa-pencil"></em></a>
                             <a class="label label-sm label-danger"><em class="fa fa-trash"></em></a></td>
                     </tr>
                 </tbody>

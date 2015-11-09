@@ -25,7 +25,12 @@ namespace OMum.Tenants
         {
             var querys = TenantManager.Tenants.WhereIf(!string.IsNullOrEmpty(input.TenantName), u => u.TenancyName.Contains(input.TenantName) || u.Name.Contains(input.TenantName));
             var TotalCount = querys.Count();
-            var users = querys.OrderBy(input.Sorting).PageBy(input).Skip((input.pageIndex-1)*input.pageSize).Take(input.pageSize).ToList();
+            var users = querys
+                .OrderBy(input.Sorting)
+                .PageBy(input)
+                .Skip((input.pageIndex - 1) * input.pageSize)
+                .Take(input.pageSize)
+                .ToList();
 
             var id = AbpSession.TenantId;
             return new PagedResultOutput<TenantDto>()
@@ -42,7 +47,18 @@ namespace OMum.Tenants
 
         public async Task CreateTenant(CreateTenantInput input)
         {
-            CheckErrors(await TenantManager.CreateAsync(new Tenant() { Name = input.Name, TenancyName = input.TenancyName, IsActive = true }));           
+            if (input.Id == 0)
+            {
+                CheckErrors(await TenantManager.CreateAsync(new Tenant() { Name = input.Name, TenancyName = input.TenancyName, IsActive = input.IsActive }));
+            }
+            else
+            {
+                var tenantEntity = await TenantManager.GetByIdAsync(input.Id);
+                tenantEntity.Name = input.Name;
+                tenantEntity.TenancyName = input.TenancyName;
+                tenantEntity.IsActive = input.IsActive;
+                CheckErrors(await TenantManager.UpdateAsync(tenantEntity));
+            }
         }
 
         Task ITenantAppService.UpdateTenant(TenantDto tenant)
