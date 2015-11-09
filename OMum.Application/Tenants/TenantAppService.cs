@@ -21,6 +21,8 @@ namespace OMum.Tenants
         public TenantAppService()
         {
         }
+
+        [AbpAuthorize("Administration.TenantManagement.SuperOwner")]
         public async Task<PagedResultOutput<TenantDto>> GetTenants(GetTenantInput input)
         {
             var querys = TenantManager.Tenants.WhereIf(!string.IsNullOrEmpty(input.TenantName), u => u.TenancyName.Contains(input.TenantName) || u.Name.Contains(input.TenantName));
@@ -45,6 +47,7 @@ namespace OMum.Tenants
             throw new NotImplementedException();
         }
 
+        [AbpAuthorize("Administration.TenantManagement.SuperOwner")]
         public async Task CreateTenant(CreateTenantInput input)
         {
             if (input.Id == 0)
@@ -66,6 +69,7 @@ namespace OMum.Tenants
             throw new NotImplementedException();
         }
 
+        [AbpAuthorize("Administration.TenantManagement.SuperOwner")]
         public async Task DeleteTenant(int TenantId)
         {
             var tenant = await TenantManager.GetByIdAsync(TenantId);
