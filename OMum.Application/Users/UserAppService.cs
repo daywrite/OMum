@@ -25,8 +25,11 @@ namespace OMum.Users
         private readonly IPermissionManager _permissionManager;
         private readonly IRepository<Role, int> roleRepository;
 
-        public UserAppService(UserManager userManager, IPermissionManager permissionManager)
+        RoleManager RoleManager;
+
+        public UserAppService(UserManager userManager, IPermissionManager permissionManager, RoleManager _RoleManager)
         {
+            this.RoleManager = _RoleManager;
             _userManager = userManager;
             _permissionManager = permissionManager;
         }
@@ -128,6 +131,20 @@ namespace OMum.Users
                 var user = (await UserManager.GetUserByIdAsync(UserId));
                 CheckErrors(await UserManager.DeleteAsync(user));
                 await this.CurrentUnitOfWork.SaveChangesAsync();
+            }
+        }
+
+        public async Task<UserDto> GetUser(int UserId)
+        {
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+                var user = await UserManager.GetUserByIdAsync(UserId);
+                var dto = user.MapTo<UserDto>();
+                //dto.RoleNames =new List<string>();
+                dto.GrantRoleNames = UserManager.GetRoles(UserId).ToList();
+
+                dto.AllRoleNames = RoleManager.Roles.WhereIf(true, r => r.TenantId == user.TenantId).Select(r => r.Name).ToList();
+                return dto;
             }
         }
     }

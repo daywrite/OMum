@@ -13,5 +13,6 @@ namespace OMum.Users
         PagedResultOutput<UserDto> GetUsers(GetUserInput input);
         Task SaveUser(UserDto input);
         Task DeleteUser(int UserId);
+        Task<UserDto> GetUser(int UserId);
     }
 }

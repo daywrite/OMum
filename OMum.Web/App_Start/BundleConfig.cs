@@ -45,8 +45,8 @@ namespace OMum.Web
               "~/Vendor/oclazyload/dist/ocLazyLoad.js",
               "~/Vendor/angular-bootstrap/ui-bootstrap-tpls.js",//Abp+A
               "~/Vendor/angular-loading-bar/build/loading-bar.js",
-              
 
+              "~/Vendor/jstree/dist/jstree.min.js",
 
                  "~/Abp/Framework/scripts/abp.js",
                         "~/Abp/Framework/scripts/libs/abp.jquery.js",

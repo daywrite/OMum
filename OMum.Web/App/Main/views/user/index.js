@@ -78,6 +78,22 @@
                 });
 
             };
+
+            //创建用户
+            vm.showUserRole = function (index) {
+                var scope = $rootScope.$new();
+                scope.data = vm.users[index];
+                var modalInstance = $modal.open({
+                    templateUrl: abp.appPath + 'App/Main/views/user/role.html',
+                    controller: 'app.views.user.role as vm',
+                    size: 'md',
+                    scope: scope
+                });
+
+                modalInstance.result.then(function () {
+                    //loadUser();
+                });
+            };
         }
     ]);
 })();

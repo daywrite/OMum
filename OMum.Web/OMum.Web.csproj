@@ -1611,6 +1611,15 @@
     <Content Include="Vendor\jquery\src\var\support.js" />
     <Content Include="Vendor\jquery\src\var\toString.js" />
     <Content Include="Vendor\jquery\src\wrap.js" />
+    <Content Include="Vendor\jstree\dist\jstree.js" />
+    <Content Include="Vendor\jstree\dist\jstree.min.js" />
+    <Content Include="Vendor\jstree\dist\themes\default\32px.png" />
+    <Content Include="Vendor\jstree\dist\themes\default\32px_line.png" />
+    <Content Include="Vendor\jstree\dist\themes\default\32px_original.png" />
+    <Content Include="Vendor\jstree\dist\themes\default\40px.png" />
+    <Content Include="Vendor\jstree\dist\themes\default\style.css" />
+    <Content Include="Vendor\jstree\dist\themes\default\style.min.css" />
+    <Content Include="Vendor\jstree\dist\themes\default\throbber.gif" />
     <Content Include="Vendor\modernizr\feature-detects\a-download.js" />
     <Content Include="Vendor\modernizr\feature-detects\audio-audiodata-api.js" />
     <Content Include="Vendor\modernizr\feature-detects\audio-webaudio-api.js" />
@@ -1972,6 +1981,9 @@
     <Content Include="Vendor\simple-line-icons\scss\simple-line-icons.scss" />
     <Content Include="Vendor\bootbox\LICENSE.md" />
     <Content Include="Vendor\bootbox\README.md" />
+    <Content Include="Vendor\jstree\jstree.jquery.json" />
+    <Content Include="Vendor\jstree\LICENSE-MIT" />
+    <Content Include="Vendor\jstree\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
