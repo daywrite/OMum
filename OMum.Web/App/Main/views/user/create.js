@@ -1,29 +1,38 @@
 ﻿(function () {
-    var controllerId = 'app.views.tenant.create';
+    var controllerId = 'app.views.user.create';
     App.controller(controllerId, [
-        'abp.services.app.tenant', '$modalInstance', '$scope',
-         function (tenantService, $modalInstance, $scope) {
+        'abp.services.app.user', '$modalInstance', '$scope', 'appSession',
+         function (userService, $modalInstance, $scope, appSession) {
              var vm = this;
-             vm.tenant = {
+             var tenant = appSession.tenant;
+             vm.user = {
                  id: 0,
                  name: '',
-                 tenancyName: '',
-                 isActive: false
+                 surname: '',
+                 userName: '',
+                 emailAddress: '',
+                 isEmailConfirmed: false,
+                 isActive: false,
+                 tenantId: appSession ? tenant.id : null
              };
 
              var data = $scope.data;
              if (data != null) {
-                 vm.tenant = {
+                 vm.user = {
                      id: data.id,
                      name: data.name,
-                     tenancyName: data.tenancyName,
-                     isActive: data.isActive
+                     surname: data.surname,
+                     userName: data.userName,
+                     emailAddress: data.emailAddress,
+                     isEmailConfirmed: data.isEmailConfirmed,
+                     isActive: data.isActive,
+                     tenantId: data.tenantId
                  };
              }
 
              vm.save = function () {
-                 tenantService
-                     .createTenant(vm.tenant)
+                 userService
+                     .saveUser(vm.user)
                      .success(function () {
                          $modalInstance.close();
                      });

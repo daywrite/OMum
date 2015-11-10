@@ -11,5 +11,7 @@ namespace OMum.Users
 
         Task RemoveFromRole(long userId, string roleName);
         PagedResultOutput<UserDto> GetUsers(GetUserInput input);
+        Task SaveUser(UserDto input);
+        Task DeleteUser(int UserId);
     }
 }

@@ -14,7 +14,7 @@
                 perPageOptions: [5, 10, 15, 20]
             };
 
-            var loadTenant = function () {
+            var loadUser = function () {
 
                 //查询参数
                 var postData = {
@@ -33,64 +33,46 @@
                 );
             };
 
-            $scope.$watch('paginationConf.currentPage + paginationConf.itemsPerPage', loadTenant);
+            $scope.$watch('paginationConf.currentPage + paginationConf.itemsPerPage', loadUser);
 
-            //创建租户
-            vm.showNewTenant = function () {
+            //创建用户
+            vm.showNewUser = function () {
                 var modalInstance = $modal.open({
-                    templateUrl: abp.appPath + 'App/Main/views/tenant/create.html',
-                    controller: 'app.views.tenant.create as vm',
+                    templateUrl: abp.appPath + 'App/Main/views/user/create.html',
+                    controller: 'app.views.user.create as vm',
                     size: 'md'
                 });
 
                 modalInstance.result.then(function () {
-                    loadTenant();
+                    loadUser();
                 });
             };
 
-            //更新租户
-            vm.updateTenant = function (index) {
+            //更新用户
+            vm.update = function (index) {
 
                 var scope = $rootScope.$new();
-                scope.data = vm.tenants[index];
+                scope.data = vm.users[index];
 
                 var modalInstance = $modal.open({
-                    templateUrl: abp.appPath + 'App/Main/views/tenant/create.html',
-                    controller: 'app.views.tenant.create as vm',
+                    templateUrl: abp.appPath + 'App/Main/views/user/create.html',
+                    controller: 'app.views.user.create as vm',
                     size: 'md',
                     scope: scope
                 });
 
                 modalInstance.result.then(function () {
-                    loadTenant();
+                    loadUser();
                 });
-            };
+            };            
 
-            //删除租户
-            vm.updateTenant = function (index) {
-
-                var scope = $rootScope.$new();
-                scope.data = vm.tenants[index];
-
-                var modalInstance = $modal.open({
-                    templateUrl: abp.appPath + 'App/Main/views/tenant/create.html',
-                    controller: 'app.views.tenant.create as vm',
-                    size: 'md',
-                    scope: scope
-                });
-
-                modalInstance.result.then(function () {
-                    loadTenant();
-                });
-            };
-
-            vm.deleteTenant = function (index) {
-                var data = vm.tenants[index];
+            vm.delete = function (index) {
+                var data = vm.users[index];
                 bootbox.setDefaults("locale", "zh_CN");
-                bootbox.confirm("确定要删除此租户？", function (r) {
+                bootbox.confirm("确定要删除此用户？", function (r) {
                     if (r) {
-                        tenantService.deleteTenant(data.id).success(function (data) {
-                            loadTenant();
+                        userService.deleteUser(data.id).success(function (data) {
+                            loadUser();
                         });
                     }
                 });

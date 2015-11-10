@@ -14,6 +14,7 @@ using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
 
 using OMum.Users.Dto;
+using OMum.Authorization.Roles;
 
 namespace OMum.Users
 {
@@ -22,6 +23,7 @@ namespace OMum.Users
     {
         private readonly UserManager _userManager;
         private readonly IPermissionManager _permissionManager;
+        private readonly IRepository<Role, int> roleRepository;
 
         public UserAppService(UserManager userManager, IPermissionManager permissionManager)
         {
@@ -65,7 +67,68 @@ namespace OMum.Users
                     Items = users.MapTo<List<UserDto>>()
                 };
             }
+        }
 
+        public async Task SaveUser(UserDto input)
+        {
+            var user = new User();
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+                //CheckErrors(await UserManager.CheckTenantyDuplicateUsernameOrEmailAddressAsync(input.Id, input.TenantId, input.UserName, input.EmailAddress));
+                var GrantRoleNames = input.GrantRoleNames;
+                //var grantRoleIds = roleRepository.GetAll().Where(r => r.TenantId == input.TenantId && GrantRoleNames.Contains(r.Name)).Select(r => r.Id).ToList();
+                if (input.Id > 0)
+                {
+
+                    user = await UserManager.GetUserByIdAsync(input.Id);
+                    user.Name = input.Name;
+                    user.Surname = input.Surname;
+                    user.TenantId = input.TenantId;
+                    user.EmailAddress = input.EmailAddress;
+                    user.IsActive = input.IsActive;
+                    user.UserName = input.UserName;
+                    user.IsEmailConfirmed = input.IsEmailConfirmed;
+
+                    var HavedRoles = (await UserManager.GetRolesAsync(input.Id)).ToList();
+                    //HavedRoles.RemoveAll
+                    //HavedRoles.ForEach(r => input.GrantRoleNames.Remove(r));
+                    //await userRepository.UpdateAsync(user);
+                    CheckErrors(await UserManager.UpdateAsync(user));
+                }
+                else
+                {
+                    user.Name = input.Name;
+                    user.Surname = input.Surname;
+                    user.TenantId = input.TenantId;
+                    user.EmailAddress = input.EmailAddress;
+                    user.IsActive = input.IsActive;
+                    user.UserName = input.UserName;
+                    user.Password = new PasswordHasher().HashPassword(string.IsNullOrEmpty(input.Password) ? "123qwe" : input.Password);
+                    //var defaultRoles = RoleManager.Roles.Where(r => r.IsDefault == true && r.TenantId == input.TenantId).Select(r => r.Name);
+                    //input.GrantRoleNames = defaultRoles.ToList();
+
+                    //user.Id = await userRepository.InsertAndGetIdAsync(user);
+                    CheckErrors(await UserManager.CreateAsync(user, string.IsNullOrEmpty(input.Password) ? "123qwe" : input.Password));
+                }
+                //await userroleRepository.DeleteAsync(ur => ur.UserId == input.Id);
+                //grantRoleIds.ForEach(r =>
+                //{
+                //    userroleRepository.InsertAsync(new UserRole(input.Id, r));
+                //});
+
+                //CheckErrors(await UserManager.SetRoles(user, input.GrantRoleNames.ToArray()));
+                await CurrentUnitOfWork.SaveChangesAsync();
+            }
+        }
+
+        public async Task DeleteUser(int UserId)
+        {
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+                var user = (await UserManager.GetUserByIdAsync(UserId));
+                CheckErrors(await UserManager.DeleteAsync(user));
+                await this.CurrentUnitOfWork.SaveChangesAsync();
+            }
         }
     }
 }

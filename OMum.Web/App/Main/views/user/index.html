@@ -1,5 +1,5 @@
 ﻿<h3>
-    租户管理
+    用户管理
     <small>Tenant Management</small>
 </h3>
 <div ng-controller="UserContraller as vm">
@@ -28,12 +28,12 @@
                         <td>{{user.userName}}</td>
                         <td>{{user.creationTime | date:"MM/dd/yyyy @ h:mma"}}</td>
                         <td>
-                            <span class="label label-sm label-green" ng-if="tenant.isActive">启用</span>
-                            <span class="label label-sm label-danger" ng-if="!tenant.isActive">停用</span>
+                            <span class="label label-sm label-green" ng-if="user.isActive">启用</span>
+                            <span class="label label-sm label-danger" ng-if="!user.isActive">停用</span>
                         </td>
                         <td>
-                            <a class="label label-sm label-green" ng-click="vm.updateTenant($index)"><em class="fa fa-pencil"></em></a>
-                            <a class="label label-sm label-danger" ng-click="vm.deleteTenant($index)"><em class="fa fa-trash"></em></a>
+                            <a class="label label-sm label-green" ng-click="vm.update($index)"><em class="fa fa-pencil"></em></a>
+                            <a class="label label-sm label-danger" ng-click="vm.delete($index)"><em class="fa fa-trash"></em></a>
                         </td>
                     </tr>
                 </tbody>
