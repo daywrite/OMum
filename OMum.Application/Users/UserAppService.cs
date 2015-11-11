@@ -24,14 +24,17 @@ namespace OMum.Users
         private readonly UserManager _userManager;
         private readonly IPermissionManager _permissionManager;
         private readonly IRepository<Role, int> roleRepository;
+        private readonly IRepository<UserRole, long> userroleRepository;
 
         RoleManager RoleManager;
 
-        public UserAppService(UserManager userManager, IPermissionManager permissionManager, RoleManager _RoleManager)
+        public UserAppService(UserManager userManager, IPermissionManager permissionManager, RoleManager _RoleManager, IRepository<UserRole, long> _userroleRepository, IRepository<Role, int> _roleRepository)
         {
             this.RoleManager = _RoleManager;
             _userManager = userManager;
             _permissionManager = permissionManager;
+            userroleRepository = _userroleRepository;
+            roleRepository = _roleRepository;
         }
 
         public async Task ProhibitPermission(ProhibitPermissionInput input)
@@ -71,14 +74,30 @@ namespace OMum.Users
                 };
             }
         }
+        public async Task SaveRole(UserDto input)
+        {
+            var user = new User();
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+                var GrantRoleNames = input.GrantRoleNames;
+                var grantRoleIds = roleRepository.GetAll().Where(r => r.TenantId == input.TenantId && GrantRoleNames.Contains(r.Name)).Select(r => r.Id).ToList();
 
+                await userroleRepository.DeleteAsync(ur => ur.UserId == input.Id);
+                grantRoleIds.ForEach(r =>
+                {
+                    userroleRepository.InsertAsync(new UserRole(input.Id, r));
+                });
+
+                await CurrentUnitOfWork.SaveChangesAsync();
+            }
+        }
         public async Task SaveUser(UserDto input)
         {
             var user = new User();
             using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
             {
                 //CheckErrors(await UserManager.CheckTenantyDuplicateUsernameOrEmailAddressAsync(input.Id, input.TenantId, input.UserName, input.EmailAddress));
-                var GrantRoleNames = input.GrantRoleNames;
+                //var GrantRoleNames = input.GrantRoleNames;
                 //var grantRoleIds = roleRepository.GetAll().Where(r => r.TenantId == input.TenantId && GrantRoleNames.Contains(r.Name)).Select(r => r.Id).ToList();
                 if (input.Id > 0)
                 {

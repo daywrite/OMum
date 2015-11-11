@@ -8,7 +8,7 @@
              var data = $scope.data;
 
              userService.getUser(data.id).success(function (result) {
-                 //$scope.userModel = result;
+                 vm.userModel = result;
                  var treedata = [];
                  $.each(result.allRoleNames, function (i, v) {
                      treedata.push({ text: v, id: v });
@@ -40,8 +40,9 @@
              });
 
              vm.save = function () {
+                 vm.userModel.grantRoleNames = $('#tree_roles').jstree().get_selected();
                  userService
-                     .saveUser(vm.user)
+                     .saveRole(vm.userModel)
                      .success(function () {
                          $modalInstance.close();
                      });

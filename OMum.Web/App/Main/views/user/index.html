@@ -18,7 +18,7 @@
                         <th>用户名</th>
                         <th style="width:150px;">创建时间</th>
                         <th style="width:100px;">状态</th>
-                        <th style="width:200px;">操作</th>
+                        <th style="width:250px;">操作</th>
                     </tr>
                 </thead>
                 <tbody ng-repeat="user in vm.users">
@@ -35,6 +35,7 @@
                             <a class="label label-sm label-green" ng-click="vm.update($index)"><em class="fa fa-pencil">编辑</em></a>
                             <a class="label label-sm label-danger" ng-click="vm.delete($index)"><em class="fa fa-trash">删除</em></a>
                             <a class="label label-sm label-danger" ng-click="vm.showUserRole($index)"><em class="fa fa-trash">角色</em></a>
+                            <a class="label label-sm label-danger" ng-click="vm.showUserPermission($index)"><em class="fa fa-trash">权限</em></a>
                         </td>
                     </tr>
                 </tbody>
