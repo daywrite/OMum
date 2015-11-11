@@ -17,7 +17,7 @@
                                  $('#tree_permissions').jstree(true)
                                .select_node(v);
                              });
-                             data.inst.open_all(-1); // -1 opens all nodes in the container
+                             //data.inst.open_all(-1); // -1 opens all nodes in the container
                          }
                      })
                  }).jstree({
@@ -41,9 +41,9 @@
              });
 
              vm.save = function () {
-                 vm.userModel.grantRoleNames = $('#tree_roles').jstree().get_selected();
+                 //vm.userModel.grantRoleNames = $('#tree_permissions').jstree().get_selected();
                  userService
-                     .saveRole(vm.userModel)
+                     .updateUserPermissions({ userId: data_id, grantedPermissionNames: $('#tree_permissions').jstree().get_selected() })
                      .success(function () {
                          $modalInstance.close();
                      });

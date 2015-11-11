@@ -17,5 +17,6 @@ namespace OMum.Users
         Task<UserDto> GetUser(int UserId);
         Task SaveRole(UserDto input);
         Task<IList<string>> GetUserPermissions(long UserId);
+        Task UpdateUserPermissions(UpdateUserPermissionsInput input);
     }
 }

@@ -128,6 +128,7 @@
     <Compile Include="Tenants\ITenantAppService.cs" />
     <Compile Include="Tenants\TenantAppService.cs" />
     <Compile Include="Users\Dto\GetUserInput.cs" />
+    <Compile Include="Users\Dto\UpdateUserPermissionsInput.cs" />
     <Compile Include="Users\Dto\UserDto.cs" />
     <Compile Include="Users\IUserAppService.cs" />
     <Compile Include="Roles\RoleAppService.cs" />

@@ -175,5 +175,14 @@ namespace OMum.Users
                 return (await UserManager.GetGrantedPermissionsAsync(await UserManager.GetUserByIdAsync(UserId))).Select(p => p.Name).ToList();
             }
         }
+
+        public async Task UpdateUserPermissions(UpdateUserPermissionsInput input)
+        {
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {             
+                await UserManager.SetGrantedPermissionsAsync(await UserManager.GetUserByIdAsync(input.UserId), PermissionManager.GetAllPermissions().Where(p => input.GrantedPermissionNames.Contains(p.Name)));
+            }
+        }
+
     }
 }
