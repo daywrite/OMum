@@ -79,13 +79,29 @@
 
             };
 
-            //创建用户
+            //创建用户角色
             vm.showUserRole = function (index) {
                 var scope = $rootScope.$new();
                 scope.data = vm.users[index];
                 var modalInstance = $modal.open({
                     templateUrl: abp.appPath + 'App/Main/views/user/role.html',
                     controller: 'app.views.user.role as vm',
+                    size: 'md',
+                    scope: scope
+                });
+
+                modalInstance.result.then(function () {
+                    //loadUser();
+                });
+            };
+
+            //创建用户权限
+            vm.showUserPermission = function (index) {
+                var scope = $rootScope.$new();
+                scope.data = vm.users[index];
+                var modalInstance = $modal.open({
+                    templateUrl: abp.appPath + 'App/Main/views/user/permission.html',
+                    controller: 'app.views.user.permission as vm',
                     size: 'md',
                     scope: scope
                 });

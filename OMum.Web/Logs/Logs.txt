@@ -10746,3 +10746,153 @@ DEBUG 2015-11-11 10:05:03,299 [1    ] Default                                  -
 DEBUG 2015-11-11 10:05:03,300 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Tenants.ITenantAppService' with service name 'app/tenant'.
 DEBUG 2015-11-11 10:05:03,303 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2015-11-11 10:05:03,304 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2015-11-11 10:33:09,866 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-11-11 10:33:10,024 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-11-11 10:33:10,027 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:33:10,037 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-11-11 10:33:10,404 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-11-11 10:33:10,410 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-11-11 10:33:10,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-11-11 10:33:10,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-11-11 10:33:10,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-11-11 10:33:11,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2015-11-11 10:33:11,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-11-11 10:33:11,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Permissions.Dto.PermissionDto
+DEBUG 2015-11-11 10:33:11,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Tenants.Dto.TenantDto
+DEBUG 2015-11-11 10:33:11,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Users.Dto.UserDto
+DEBUG 2015-11-11 10:33:11,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-11-11 10:33:11,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-11-11 10:33:11,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-11-11 10:33:11,676 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-11-11 10:33:11,677 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2015-11-11 10:33:11,678 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-11-11 10:33:11,679 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-11-11 10:33:11,680 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-11-11 10:33:11,680 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+WARN  2015-11-11 10:34:40,029 [10   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,029 [10   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,030 [10   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:34:40,031 [10   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:35:26,820 [16   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,700 [37   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,701 [37   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,702 [37   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,702 [37   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:37:49,702 [37   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,054 [48   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:40:18,055 [48   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+DEBUG 2015-11-11 10:45:18,398 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-11-11 10:45:18,903 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-11-11 10:45:18,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Web.OMumWebModule, OMum.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumDataModule, OMum.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumCoreModule, OMum.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.OMumApplicationModule, OMum.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMum.Api.OMumWebApiModule, OMum.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:18,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-11 10:45:19,473 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-11-11 10:45:19,902 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-11-11 10:45:19,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-11-11 10:45:19,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-11-11 10:45:19,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OMum
+DEBUG 2015-11-11 10:45:19,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-11-11 10:45:21,158 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2015-11-11 10:45:21,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2015-11-11 10:45:21,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Animals.Dto.AnimalDto
+DEBUG 2015-11-11 10:45:21,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Permissions.Dto.PermissionDto
+DEBUG 2015-11-11 10:45:21,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Tenants.Dto.TenantDto
+DEBUG 2015-11-11 10:45:21,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Users.Dto.UserDto
+DEBUG 2015-11-11 10:45:21,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2015-11-11 10:45:21,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMum.Sessions.Dto.UserLoginInfoDto
+DEBUG 2015-11-11 10:45:21,297 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Animals.IAnimalAppService' with service name 'app/animal'.
+DEBUG 2015-11-11 10:45:21,298 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2015-11-11 10:45:21,300 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2015-11-11 10:45:21,301 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-11-11 10:45:21,302 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-11-11 10:45:21,304 [1    ] Default                                  - Dynamic web api controller is created for type 'OMum.Sessions.ISessionAppService' with service name 'app/session'.
+WARN  2015-11-11 10:45:36,351 [13   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:36,352 [13   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,793 [10   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:48,794 [10   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:45:56,835 [12   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,653 [12   ] Default                                  - Can not find 'GetAnimals' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,654 [12   ] Default                                  - Can not find 'CanQueryCount' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,654 [12   ] Default                                  - Can not find 'ModuleOMunManage' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,654 [12   ] Default                                  - Can not find 'Administration.TenantManagement.SuperOwner' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,654 [12   ] Default                                  - Can not find 'TenantManage' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,654 [12   ] Default                                  - Can not find 'View Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,655 [12   ] Default                                  - Can not find 'Create Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,655 [12   ] Default                                  - Can not find 'Edit Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,655 [12   ] Default                                  - Can not find 'Delete Tenants' in localization source 'OMum'!
+WARN  2015-11-11 10:46:00,655 [12   ] Default                                  - Can not find 'Update TenantSetting' in localization source 'OMum'!

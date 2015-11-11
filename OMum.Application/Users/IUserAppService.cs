@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
@@ -15,5 +16,6 @@ namespace OMum.Users
         Task DeleteUser(int UserId);
         Task<UserDto> GetUser(int UserId);
         Task SaveRole(UserDto input);
+        Task<IList<string>> GetUserPermissions(long UserId);
     }
 }

@@ -166,5 +166,14 @@ namespace OMum.Users
                 return dto;
             }
         }
+
+        public async Task<IList<string>> GetUserPermissions(long UserId)
+        {
+            using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+
+                return (await UserManager.GetGrantedPermissionsAsync(await UserManager.GetUserByIdAsync(UserId))).Select(p => p.Name).ToList();
+            }
+        }
     }
 }
