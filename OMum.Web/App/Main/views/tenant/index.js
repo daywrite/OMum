@@ -25,6 +25,8 @@
                     tenantService.getTenants(postData).success(function (data) {
                         $scope.paginationConf.totalItems = data.totalCount;
                         vm.tenants = data.items;
+                    }).error(function (data) {
+                        abp.message.info("错误",data.message);
                     })
                 );
             };
