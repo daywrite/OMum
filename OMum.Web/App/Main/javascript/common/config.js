@@ -52,7 +52,7 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
       .state('app.userrole', {
           url: '/role',
           title: '角色',
-          templateUrl: '/App/Main/views/user/role.html'
+          templateUrl: '/App/Main/views/role/index.html'
       })
       .state('app.userpermission', {
           url: '/permission',

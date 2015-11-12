@@ -321,6 +321,12 @@
     <Content Include="App\Main\views\partials\offsidebar.html" />
     <Content Include="App\Main\views\partials\sidebar.html" />
     <Content Include="App\Main\views\partials\top-navbar.html" />
+    <Content Include="App\Main\views\role\create.html" />
+    <Content Include="App\Main\views\role\create.js" />
+    <Content Include="App\Main\views\role\index.html" />
+    <Content Include="App\Main\views\role\index.js" />
+    <Content Include="App\Main\views\role\permission.html" />
+    <Content Include="App\Main\views\role\permission.js" />
     <Content Include="App\Main\views\singleview.html" />
     <Content Include="App\Main\views\submenu.html" />
     <Content Include="App\Main\views\tenant\create.html" />

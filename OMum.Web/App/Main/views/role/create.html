@@ -1,0 +1,46 @@
+﻿<div>
+    <div class="modal-header">
+        <h3>角色创建</h3>
+        <small>Role Create</small>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">名称</label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="名称" class="form-control" ng-model="vm.role.name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">显示名称</label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="名称" class="form-control" ng-model="vm.role.displayName" />
+                </div>
+            </div>          
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <div class="inline checkbox c-checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="vm.role.isDefault" />
+                            <span class="fa fa-check"></span>是否默认
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <div class="inline checkbox c-checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="vm.role.isStatic" />
+                            <span class="fa fa-check"></span>是否静态
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="vm.cancel()">退出</button>
+        <button class="btn btn-success" ng-click="vm.save()">保存</button>
+    </div>
+</div>

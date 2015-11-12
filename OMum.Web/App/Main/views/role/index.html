@@ -1,0 +1,49 @@
+﻿<h3>
+    角色管理
+    <small>Role Management</small>
+</h3>
+<div ng-controller="RoleContraller as vm">
+    <p>
+        <button class="btn btn-info" ng-click="vm.showNewRole()"><i class="fa fa-plus"></i>创建</button>
+    </p>
+    <div class="panel panel-default">
+        <div class="panel-heading">角色列表</div>
+        <!--S-用户表-->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th style="width:50px;">标识</th>
+                        <th>名称</th>
+                        <th style="width:100px;">角色级别</th>
+                        <th style="width:150px;">创建时间</th>
+                        <th style="width:100px;">是否默认</th>
+                        <th style="width:250px;">操作</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="role in vm.roles">
+                    <tr>
+                        <td>{{role.id}}</td>
+                        <td>{{role.name}}</td>
+                        <td>
+                            <span class="label label-sm label-success" ng-if="role.isDefault">默认</span>
+                            <span class="label label-sm label-info" ng-if="!role.isDefault">自定义</span>
+                        </td>
+                        <td>{{role.creationTime | date:"MM/dd/yyyy @ h:mma"}}</td>
+                        <td>
+                            <span class="label label-sm label-success" ng-if="role.isStatic">系统</span>
+                            <span class="label label-sm label-info" ng-if="!role.isStatic">用户</span>
+                        </td>
+                        <td>
+                            <a class="label label-sm label-green" ng-click="vm.update($index)"><em class="fa fa-pencil">编辑</em></a>
+                            <a class="label label-sm label-danger" ng-click="vm.delete($index)"><em class="fa fa-trash">删除</em></a>
+                            <a class="label label-sm label-danger" ng-click="vm.showUserPermission($index)"><em class="fa fa-trash">权限</em></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--E-用户表-->
+        <tm-pagination conf="paginationConf"></tm-pagination>
+    </div>
+</div>
