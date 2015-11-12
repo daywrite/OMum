@@ -57,7 +57,7 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
       .state('app.userpermission', {
           url: '/permission',
           title: '权限',
-          templateUrl: '/App/Main/views/user/permission.html'
+          templateUrl: '/App/Main/views/permission/index.cshtml'
       })
     // 
     // CUSTOM RESOLVES

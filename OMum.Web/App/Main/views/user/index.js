@@ -15,7 +15,7 @@
             };
 
             var loadUser = function () {
-
+                //abp.message.success("1", "1");
                 //查询参数
                 var postData = {
                     MaxResultCount: 100,

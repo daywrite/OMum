@@ -28,7 +28,8 @@ var App = angular.module('angle', [
     'ui.utils',
 
      'abp',
-     'tm.pagination'
+     'tm.pagination',
+     'ui.jq'
   ]);
 
 App.run(["$rootScope", "$state", "$stateParams",  '$window', '$templateCache', function ($rootScope, $state, $stateParams, $window, $templateCache) {

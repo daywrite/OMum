@@ -695,6 +695,7 @@
     <Content Include="App\Main\views\user\role.html" />
     <Content Include="App\Main\views\user\permission.html" />
     <Content Include="Content\tm.pagination.css" />
+    <Content Include="App\Main\views\permission\index.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
