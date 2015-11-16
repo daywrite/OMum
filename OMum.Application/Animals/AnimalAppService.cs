@@ -15,15 +15,18 @@ using Abp.Linq.Extensions;
 using Abp.AutoMapper;
 using OMum.Configuration;
 using Abp.Authorization;
+using Castle.Core.Logging;
 
 namespace OMum.Animals
 {
     [AbpAuthorize]
     public class AnimalAppService : ApplicationService, IAnimalAppService
     {
+        public ILogger Logger { get; set; }
         private readonly IRepository<Animal> _animalRepository;
         public AnimalAppService(IRepository<Animal> animalRepository)
         {
+            Logger = NullLogger.Instance;
             _animalRepository = animalRepository;
         }
         [AbpAuthorize("CanQueryCount")]
@@ -35,6 +38,7 @@ namespace OMum.Animals
         }
         public async Task CreateAnimal(CreateAnimalInput input)
         {
+            Logger.Info("创建动物" + input.Name);
             await _animalRepository.InsertAsync(new Animal { Name = input.Name });
         }
         [AbpAuthorize("GetAnimals")]
