@@ -46,7 +46,7 @@ namespace OMum.Animals
             }
 
             var animalCount = _animalRepository.Count();
-            var animals=_animalRepository.GetAll()
+            var animals = _animalRepository.GetAll()
                     .Include(q => q.CreatorUser)
                     .OrderBy(input.Sorting)
                     .PageBy(input)
@@ -57,6 +57,16 @@ namespace OMum.Animals
                 TotalCount = animalCount,
                 Items = animals.MapTo<List<AnimalDto>>()
             };
+        }
+
+        public async Task DeleteAnimal(int animalId)
+        {
+            //using (this.CurrentUnitOfWork.DisableFilter(AbpDataFilters.MayHaveTenant))
+            //{
+            var animal = (await _animalRepository.FirstOrDefaultAsync(animalId));
+            await _animalRepository.DeleteAsync(animal);
+            //await this.CurrentUnitOfWork.SaveChangesAsync();
+            //}
         }
     }
 }

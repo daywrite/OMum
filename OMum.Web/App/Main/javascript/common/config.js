@@ -59,6 +59,11 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
           title: '权限',
           templateUrl: '/App/Main/views/permission/index.cshtml'
       })
+    .state('app.animal', {
+        url: '/animal',
+        title: '动物',
+        templateUrl: '/App/Main/views/animal/index.html'
+    })
     // 
     // CUSTOM RESOLVES
     //   Add your own resolves properties

@@ -1,0 +1,20 @@
+﻿<div>
+    <div class="modal-header">
+        <h3>动物创建</h3>
+        <small>Animal Create</small>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">名称</label>
+                <div class="col-lg-10">
+                    <input type="text" placeholder="动物的名称" class="form-control" ng-model="vm.entity.name" />
+                </div>
+            </div>        
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="vm.cancel()">退出</button>
+        <button class="btn btn-success" ng-click="vm.save()">保存</button>
+    </div>
+</div>

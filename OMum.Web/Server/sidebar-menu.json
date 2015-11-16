@@ -27,5 +27,17 @@
       }          
     ],
     "translate": "用户管理"
+  },
+  {
+    "text": "动物管理",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+	  { "text": "动物", 
+        "sref": "app.animal", 
+        "translate": "动物" 
+      }     
+    ],
+    "translate": "动物管理"
   }
 ]

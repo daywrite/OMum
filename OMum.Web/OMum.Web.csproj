@@ -295,6 +295,10 @@
     <Content Include="App\Main\javascript\common\config.js" />
     <Content Include="App\Main\javascript\controllers\sidebar-menu.js" />
     <Content Include="App\Main\javascript\services\appSession.js" />
+    <Content Include="App\Main\views\animal\create.html" />
+    <Content Include="App\Main\views\animal\create.js" />
+    <Content Include="App\Main\views\animal\index.html" />
+    <Content Include="App\Main\views\animal\index.js" />
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\partials\footer.html" />
     <Content Include="App\Main2\app.js" />
