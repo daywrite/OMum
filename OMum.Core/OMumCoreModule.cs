@@ -4,7 +4,11 @@ using Abp.Localization.Dictionaries.Xml;
 using Abp.Localization.Sources;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
+using Abp.MultiTenancy;
 using Abp.Zero;
+using Abp.Zero.Configuration;
+using OMum.Authorization.Roles;
+using OMum.Configuration;
 
 namespace OMum
 {
@@ -26,6 +30,11 @@ namespace OMum
                         )
                     )
                 );
+            Configuration.Settings.Providers.Add<OMumSettingProvider>();
+            //默认租户登陆
+            Configuration.Modules.Zero().RoleManagement.StaticRoles.Add(new StaticRoleDefinition(StaticRoleNames.Tenant.Admin, MultiTenancySides.Host));
+            Configuration.Modules.Zero().RoleManagement.StaticRoles.Add(new StaticRoleDefinition(StaticRoleNames.Tenant.Admin, MultiTenancySides.Tenant));
+            Configuration.Modules.Zero().RoleManagement.StaticRoles.Add(new StaticRoleDefinition(StaticRoleNames.Tenant.Member, MultiTenancySides.Tenant));
         }
 
         public override void Initialize()

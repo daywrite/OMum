@@ -87,6 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Authorization\Roles\StaticRoleNames.cs" />
+    <Compile Include="Configuration\OMumSettingNames.cs" />
+    <Compile Include="Configuration\OMumSettingProvider.cs" />
     <Compile Include="OMumConsts.cs" />
     <Compile Include="OMumCoreModule.cs" />
     <Compile Include="Authorization\PermissionChecker.cs" />
