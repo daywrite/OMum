@@ -23,8 +23,9 @@ namespace OMum.Animals
     public class AnimalAppService : ApplicationService, IAnimalAppService
     {
         public ILogger Logger { get; set; }
-        private readonly IRepository<Animal> _animalRepository;
-        public AnimalAppService(IRepository<Animal> animalRepository)
+        private readonly IAnimalRepository _animalRepository;
+
+        public AnimalAppService(IAnimalRepository animalRepository)
         {
             Logger = NullLogger.Instance;
             _animalRepository = animalRepository;
@@ -71,6 +72,12 @@ namespace OMum.Animals
             await _animalRepository.DeleteAsync(animal);
             //await this.CurrentUnitOfWork.SaveChangesAsync();
             //}
+        }
+
+        public async Task<List<Animal>> GetAnimalsBySql()
+        {
+            string sql = "select * from t_Animal";
+            return await _animalRepository.GetAnimalBySql(sql);
         }
     }
 }

@@ -117,6 +117,7 @@
   <ItemGroup>
     <Compile Include="EntityFramework\OMumDbContext.cs" />
     <Compile Include="EntityFramework\OMumDbContextInitializer.cs" />
+    <Compile Include="EntityFramework\Repositories\AnimalRepository.cs" />
     <Compile Include="EntityFramework\Repositories\OMumRepositoryBase.cs" />
     <Compile Include="Initialize\EntityConfigurationBase.cs" />
     <Compile Include="Initialize\MvcFrameworkInitializer.cs" />

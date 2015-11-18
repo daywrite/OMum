@@ -23,6 +23,7 @@ namespace OMum.Web.Controllers
         {
             //AddAnimal();
             //QueryAnimalCount();
+            
             GetAnimals();
             return View();
         }
@@ -34,6 +35,8 @@ namespace OMum.Web.Controllers
 
         public async Task<int> QueryAnimalCount()
         {
+            var a = await _animalAppService.GetAnimalsBySql();
+
             int x = await _animalAppService.QueryCount();
             return x;
         }

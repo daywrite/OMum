@@ -15,5 +15,6 @@ namespace OMum.Animals
         Task CreateAnimal(CreateAnimalInput input);
         PagedResultOutput<AnimalDto> GetAnimals(GetAnimalsInput input);
         Task DeleteAnimal(int animalId);
+        Task<List<Animal>> GetAnimalsBySql();
     }
 }

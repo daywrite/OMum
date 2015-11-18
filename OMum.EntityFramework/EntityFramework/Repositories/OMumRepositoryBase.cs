@@ -1,4 +1,5 @@
-﻿using Abp.Domain.Entities;
+﻿using System.Threading.Tasks;
+using Abp.Domain.Entities;
 using Abp.EntityFramework;
 using Abp.EntityFramework.Repositories;
 
@@ -14,6 +15,10 @@ namespace OMum.EntityFramework.Repositories
         }
 
         //add common methods for all repositories
+        //public async Task<TEntity> GetEntityBySql(string sql)
+        //{
+        //    return await Context.Database.SqlQuery<TEntity>(sql).FirstOrDefaultAsync();
+        //}
     }
 
     public abstract class OMumRepositoryBase<TEntity> : OMumRepositoryBase<TEntity, int>
